@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+        <meta charset="utf-8" />
+        <title>¿Cómo está hecho el blog?</title>
+        <link rel="stylesheet" href="/theme/css/main.css" />
+
+        <!--[if IE]>
+            <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                <h1><a href="/">Repositorio de Matemáticas </a></h1>
+                <nav><ul>
+                    <li><a href="/category/general.html">General</a></li>
+                    <li class="active"><a href="/category/pelican.html">Pelican</a></li>
+                </ul></nav>
+        </header><!-- /#banner -->
+<section id="content" class="body">
+  <article>
+    <header>
+      <h1 class="entry-title">
+        <a href="/como-esta-hecho-el-blog.html" rel="bookmark"
+           title="Permalink to ¿Cómo está hecho el blog?">¿Cómo está hecho el blog?</a></h1>
+    </header>
+
+    <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2015-08-28T00:00:00+02:00">
+                Published: vie 28 agosto 2015
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="/author/carlos-rodriguez.html">Carlos Rodríguez</a>
+        </address>
+<p>In <a href="/category/pelican.html">Pelican</a>.</p>
+
+</footer><!-- /.post-info -->      <p>Este blog está hecho con <strong>Pelican</strong> y está alojado en <strong>Github Pages</strong>. La
+principal razón es la de utilizar Software Libre, y documentar en
+Restructuredtext (.rst). Aparte de las ventajas de usar software libre,
+el poder documentar el blog offline me ha animado a aprender Pelican y
+usarlo.</p>
+<p>He creado un repositorio <em>fuente_web</em> que contiene los artículos en formato .rst</p>
+<p>El caso es que el contenido en .rst hay que transformarlo a .html y
+además hay que alojarlo en el repositorio de <em>GitHub</em> que hace de servidor web.
+Pues bien, además de crear el repositorio <em>es3a10.github.io</em> hay que pasar
+a las fuentes unos script de python que manden el contenido.
+En un terminal y desde la carpeta donde tengamos el repositorio local <em>fuente_web</em>
+tendremos que ejecutar los siguientes comandos:</p>
+<pre class="literal-block">
+$ pelican content -o output -s pelicanconf.py
+$ ghp-import output
+$ git push git&#64;github.com:es3a10/es3a10.github.io.git gh-pages:master
+</pre>
+<p>Otra cosa que hay que hacer, si no se ha hecho, crear una clave pública-privada para
+la conexión ssh al servidro <em>GitHub</em>. La clave RSA hay que meterla en los <em>settings</em>
+de nuestra cuenta <em>GitHub</em>.</p>
+<div class="highlight"><pre>&lt;Esto es un identificador&gt;
+</pre></div>
+
+    </div><!-- /.entry-content -->
+
+  </article>
+</section>
+        <section id="extras" class="body">
+                <div class="blogroll">
+                        <h2>blogroll</h2>
+                        <ul>
+                            <li><a href="http://getpelican.com/">Pelican</a></li>
+                            <li><a href="http://python.org/">Python.org</a></li>
+                            <li><a href="http://jinja.pocoo.org/">Jinja2</a></li>
+                            <li><a href="#">You can modify those links in your config file</a></li>
+                        </ul>
+                </div><!-- /.blogroll -->
+                <div class="social">
+                        <h2>social</h2>
+                        <ul>
+
+                            <li><a href="#">You can add links in your config file</a></li>
+                            <li><a href="#">Another social link</a></li>
+                        </ul>
+                </div><!-- /.social -->
+        </section><!-- /#extras -->
+
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
+                </address><!-- /#about -->
+
+                <p>The theme is by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
+        </footer><!-- /#contentinfo -->
+
+</body>
+</html>
