@@ -1,0 +1,7625 @@
+#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
+\lyxformat 345
+\begin_document
+\begin_header
+\textclass beamer
+\begin_preamble
+\usetheme{Madrid}
+%\usecolortheme{default}
+\usecolortheme{seahorse}
+
+ \date{}
+\institute{}
+\setbeamertemplate{footline}{}
+%\usecolortheme[named=Mahogany]{structure}
+\end_preamble
+\use_default_options true
+\language spanish
+\inputencoding utf8
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\paperfontsize default
+\spacing single
+\use_hyperref true
+\pdf_bookmarks false
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder true
+\pdf_colorlinks false
+\pdf_backref false
+\pdf_pdfusetitle false
+\pdf_pagemode FullScreen
+\papersize default
+\use_geometry true
+\use_amsmath 1
+\use_esint 1
+\cite_engine basic
+\use_bibtopic false
+\paperorientation portrait
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\defskip medskip
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\author "" 
+\author "" 
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Álgebra
+\end_layout
+
+\begin_layout Subtitle
+1º ESO
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+place handout in layout->document->layout->options to suppress overlays
+ for printing
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+Índice
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout EndFrame
+
+\end_layout
+
+\begin_layout Section
+Lenguaje algebraico
+\end_layout
+
+\begin_layout Subsection
+Expresiones Algebraicas
+\end_layout
+
+\begin_layout BeginFrame
+Índice
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size larger
+EL LENGUAJE ALGEBRAICO
+\end_layout
+
+\begin_layout EndFrame
+
+\end_layout
+
+\begin_layout BeginFrame
+¿Para qué usamos las letras?
+\end_layout
+
+\begin_layout ExampleBlock
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+<1->
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{Ejemplo}
+\end_layout
+
+\end_inset
+
+En el siguiente ejemplo aparecen letras que representan números que todavía
+ no conocemos.
+ 
+\end_layout
+
+\begin_layout ExampleBlock
+Investiga: 
+\end_layout
+
+\begin_layout ExampleBlock
+Observa la siguiente suma:
+\begin_inset Tabular
+<lyxtabular version="3" rows="3" columns="4">
+<features>
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+a
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+a
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+b
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
++
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+a
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+b
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+a
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+b
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+c
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+c
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\begin_inset space \hspace{}
+\length 1cm
+\end_inset
+
+
+\begin_inset Graphics
+	filename img/clase.jpg
+	width 30page%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout ExampleBlock
+Si c es el número 3, ¿cuáles son los números a y b?
+\end_layout
+
+\begin_layout AlertBlock
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{Solución}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+El 3 se puede descomponer como 0+3, 3+0 ó 1+2, 2+1.
+ De todas las combinaciones, la única que cumple la suma sería 
+\series bold
+a=1 y b=2
+\series default
+.
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout AlertBlock
+Cuando no conocemos un número, podemos hacer referencia a él usando 
+\series bold
+letras
+\series default
+.
+ La parte de las matemáticas que utiliza expresiones con letras y números
+ se llama 
+\series bold
+Álgebra
+\series default
+.
+\end_layout
+
+\begin_layout EndFrame
+
+\end_layout
+
+\begin_layout BeginFrame
+El lenguaje algebraico
+\end_layout
+
+\begin_layout Block
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+<1->
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{Expresiones Algebraicas}
+\end_layout
+
+\end_inset
+
+Una 
+\series bold
+expresión algebraica
+\series default
+ es una combinación de letras, números y signos de operaciones.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Formula $3x^{2}$
+\end_inset
+
+, 
+\begin_inset Formula $x+2$
+\end_inset
+
+, 
+\begin_inset Formula $2xy+5$
+\end_inset
+
+ son expresiones algebraicas
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Observa como se expresan las siguientes operaciones:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\size footnotesize
+\begin_inset Formula $3\times x\times x$
+\end_inset
+
+ es lo mismo que 
+\begin_inset Formula $3\cdot x\cdot x$
+\end_inset
+
+, y que 
+\begin_inset Formula $3\cdot x^{2}$
+\end_inset
+
+.
+ Por norma, se pone 
+\begin_inset Formula $3x^{2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\size footnotesize
+\begin_inset Formula $1\times x$
+\end_inset
+
+ es lo mismo que 
+\begin_inset Formula $1x$
+\end_inset
+
+.
+ Por norma, se pone solo 
+\begin_inset Formula $x$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Pause
+
+\end_layout
+
+\begin_layout ExampleBlock
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{Lenguaje Natural y Lenguaje Algebraico}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout ExampleBlock
+\begin_inset Quotes eld
+\end_inset
+
+Un número más 5
+\begin_inset Quotes erd
+\end_inset
+
+ podemos representarlo algebraicamente: 
+\begin_inset Formula $x+5$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Pause
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Ejercicios:
+\series default
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes eld
+\end_inset
+
+siete menos un número cualquiera
+\begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \dotfill{}
+\end_inset
+
+
+\begin_inset Formula ${\color{red}7-x}$
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes eld
+\end_inset
+
+ocho veces un número
+\begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \dotfill{}
+\end_inset
+
+
+\begin_inset Formula ${\color{red}8x}$
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes eld
+\end_inset
+
+un número más otro
+\begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \dotfill{}
+\end_inset
+
+
+\begin_inset Formula ${\color{red}x+y}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout EndFrame
+
+\end_layout
+
+\begin_layout BeginFrame
+Traducción de Enunciados
+\end_layout
+
+\begin_layout Pause
+
+\end_layout
+
+\begin_layout Block
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{Ejemplo}
+\end_layout
+
+\end_inset
+
+Juan y Oscar han pescado entre los dos 12 peces.
+ Si representamos mediante 
+\begin_inset Formula $x$
+\end_inset
+
+ los peces que ha pescado Juan.
+ ¿Cómo puedo expresar en lenguaje algebraico los que ha pescado Oscar?
+\end_layout
+
+\begin_layout Block
+\begin_inset Box Frameless
+position "c"
+hor_pos "c"
+has_inner_box 1
+inner_pos "c"
+use_parbox 0
+width "30col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename img/ninospescando.jpg
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+Oscar ha pescado
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \rightarrowfill{}
+\end_inset
+
+
+\begin_inset Formula ${\color{red}12-x}$
+\end_inset
+
+ peces
+\end_layout
+
+\begin_layout Pause
+
+\end_layout
+
+\begin_layout Block
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{Ejemplo}
+\end_layout
+
+\end_inset
+
+El precio por alquilar un coche es de 78€ por día más 0,12€ por km recorrido.
+ Si los alquilamos durante un día y representamos mediante la letra 
+\begin_inset Formula $x$
+\end_inset
+
+ los km recorridos, ¿cómo puedes expresar el importe a pagar?
+\end_layout
+
+\begin_layout Block
+\begin_inset Box Frameless
+position "c"
+hor_pos "c"
+has_inner_box 1
+inner_pos "c"
+use_parbox 0
+width "30col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename img/aparcamiento.jpg
+	width 20page%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+Hay que pagar
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \rightarrowfill{}
+\end_inset
+
+
+\begin_inset Formula ${\color{red}78+0,12x}$
+\end_inset
+
+ euros
+\end_layout
+
+\begin_layout EndFrame
+
+\end_layout
+
+\begin_layout BeginFrame
+Traducción de enunciados
+\end_layout
+
+\begin_layout Pause
+
+\end_layout
+
+\begin_layout Block
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{Ejemplo}
+\end_layout
+
+\end_inset
+
+Jugando a baloncesto, la puntuación de Joseba es el 
+\series bold
+doble
+\series default
+ que la de Miguel y éste tiene el 
+\series bold
+triple
+\series default
+ que los obtenidos por Indira 
+\series bold
+más uno
+\series default
+.
+ Expresamos con 
+\begin_inset Formula $x$
+\end_inset
+
+ la puntutación de Indira:
+\end_layout
+
+\begin_deeper
+\begin_layout ColumnsCenterAligned
+
+\end_layout
+
+\begin_deeper
+\begin_layout Column
+3cm
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename img/juego.jpg
+	width 20page%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Column
+6cm
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+Indira lleva
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \rightarrowfill{}
+\end_inset
+
+
+\begin_inset Formula ${\color{red}x}$
+\end_inset
+
+ puntos
+\end_layout
+
+\begin_layout Standard
+Miguel lleva
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \rightarrowfill{}
+\end_inset
+
+
+\begin_inset Formula ${\color{red}3x+1}$
+\end_inset
+
+ puntos
+\end_layout
+
+\begin_layout Standard
+Joseba lleva
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \rightarrowfill{}
+\end_inset
+
+
+\begin_inset Formula ${\color{red}2\cdot\left(3x+1\right)}$
+\end_inset
+
+ puntos
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout EndFrame
+
+\end_layout
+
+\begin_layout Subsection
+Valor numérico de una expresión algebraica
+\end_layout
+
+\begin_layout BeginFrame
+Valor numérico
+\end_layout
+
+\begin_layout Block
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+<1->
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{Valor Numérico de una expresión}
+\end_layout
+
+\end_inset
+
+El 
+\series bold
+valor numérico
+\series default
+ de una expresión algebraica es el número que se obtiene al sustituir las
+ letras por números y realizar las operaciones indicadas.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+El valor numérico de 
+\begin_inset Formula $15+20x$
+\end_inset
+
+ para 
+\begin_inset Formula $x=2$
+\end_inset
+
+ es 55, porque 
+\begin_inset Formula $15+20\cdot\left(2\right)=15+40=55$
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout ExampleBlock
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+<2->
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{Ejemplos}
+\end_layout
+
+\end_inset
+
+Calcula el valor numérico de las siguientes expresiones:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Formula $2x^{2}+8x+1$
+\end_inset
+
+para 
+\begin_inset Formula $x=1$
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \dotfill{}
+\end_inset
+
+
+\color red
+11
+\color inherit
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $2x^{2}+8x+1$
+\end_inset
+
+para 
+\begin_inset Formula $x=2$
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \dotfill{}
+\end_inset
+
+
+\color red
+25
+\color inherit
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $2x^{2}-6x$
+\end_inset
+
+ para 
+\begin_inset Formula $x=-2$
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \dotfill{}
+\end_inset
+
+
+\color red
+20
+\color inherit
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $2x^{2}-6x$
+\end_inset
+
+ para 
+\begin_inset Formula $x=2$
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \dotfill{}
+\end_inset
+
+
+\color red
+-4
+\color inherit
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout EndFrame
+
+\end_layout
+
+\begin_layout Section
+Monomios
+\end_layout
+
+\begin_layout BeginFrame
+Índice
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size larger
+MONOMIOS
+\end_layout
+
+\begin_layout EndFrame
+
+\end_layout
+
+\begin_layout Subsection
+Características de los monomios
+\end_layout
+
+\begin_layout BeginFrame
+Monomios
+\end_layout
+
+\begin_layout Block
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+<1->
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{¿Qué son?}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Un
+\emph on
+ 
+\series bold
+\size large
+\color green
+monomio
+\series default
+\size default
+\emph default
+\color inherit
+ es una expresión algebraica formada por el producto de un número 
+\series bold
+(
+\emph on
+coeficiente
+\emph default
+)
+\series default
+ y de letras 
+\series bold
+(
+\emph on
+parte literal
+\emph default
+)
+\series default
+.
+ El 
+\series bold
+grado
+\series default
+ de un monomio es el exponente de la parte literal 
+\size footnotesize
+(si hay más de una letra, se suman)
+\size default
+.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\size footnotesize
+\begin_inset Formula $2x^{3}$
+\end_inset
+
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+es un monomio de coeficiente 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+2 y de parte literal 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $x^{3}$
+\end_inset
+
+.
+ El grado es 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+3 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\color red
+OBSERVA:
+\color inherit
+ En un monomio no hay sumas ni restas
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\size footnotesize
+\begin_inset Formula $x+2x$
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+ no es monomio (es la suma de los monomios 
+\begin_inset Formula $2x$
+\end_inset
+
+ y 
+\begin_inset Formula $x$
+\end_inset
+
+)
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\color red
+OBSERVA:
+\color inherit
+ Los números son monomios de grado 0 .
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\size footnotesize
+5 se puede poner como
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \rightarrowfill{}
+\end_inset
+
+
+\begin_inset Formula $5x^{0}$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout EndFrame
+
+\end_layout
+
+\begin_layout BeginFrame
+Monomios
+\end_layout
+
+\begin_layout ExampleBlock
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{Rellena la siguiente tabla}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+\size larger
+\begin_inset Tabular
+<lyxtabular version="3" rows="7" columns="4">
+<features>
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size larger
+coeficiente
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size larger
+parte literal
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size larger
+grado
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size larger
+\begin_inset Formula $5x^{3}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size larger
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size larger
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $x^{3}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size larger
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+3
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size larger
+\begin_inset Formula $-x^{4}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size larger
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+-1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size larger
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $x^{4}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size larger
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+4
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size larger
+\begin_inset Formula $3x^{2}y$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size larger
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size larger
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $x^{2}y$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size larger
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+3
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size larger
+\begin_inset Formula $12$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size larger
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+12
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size larger
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+No tiene
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size larger
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+0
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\frac{x}{2}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size larger
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\size default
+
+\begin_inset Formula $\frac{1}{2}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size larger
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\size default
+
+\begin_inset Formula $x$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size larger
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\size default
+1
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $-3x$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size larger
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\size default
+
+\begin_inset Formula $-3$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size larger
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\size default
+
+\begin_inset Formula $x$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size larger
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\size default
+1
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\size default
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Block
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{Monomios semejantes}
+\end_layout
+
+\end_inset
+
+Diremos que dos monomios son semejantes cuando tengan la misma parte literal
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+En la tabla anterior, sólo son semejantes 
+\begin_inset Formula $\frac{x}{2}$
+\end_inset
+
+ y 
+\begin_inset Formula $-3x$
+\end_inset
+
+, ya que tienen la misma parte literal (
+\begin_inset Formula $x$
+\end_inset
+
+)
+\end_layout
+
+\end_deeper
+\begin_layout EndFrame
+
+\end_layout
+
+\begin_layout Subsection
+Sumas y Restas
+\end_layout
+
+\begin_layout BeginFrame
+Operaciones con Monomios - Sumas y Restas
+\end_layout
+
+\begin_layout Block
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+<1->
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{Suma y resta de Monomios}
+\end_layout
+
+\end_inset
+
+Para 
+\color red
+sumar o restar
+\color inherit
+ 
+\series bold
+monomios semejantes
+\series default
+ se suman o se restan los coeficientes y se deja la misma parte literal.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Formula $12x^{2}+3x^{2}=$
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $15x^{2}$
+\end_inset
+
+, porque la parte literal es la misma (
+\begin_inset Formula $x^{2}$
+\end_inset
+
+) 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $-x+5x=$
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $4x$
+\end_inset
+
+, porque la parte literal es la misma (
+\begin_inset Formula $x$
+\end_inset
+
+) 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\frac{x^{2}}{2}+\frac{3}{2}x^{2}=$
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $2x^{2}$
+\end_inset
+
+, porque la parte literal es la misma (
+\begin_inset Formula $x^{2}$
+\end_inset
+
+) 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $10x^{2}y+2x^{2}y=$
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $12x^{2}y$
+\end_inset
+
+, porque la parte literal es la misma (
+\begin_inset Formula $x^{2}y$
+\end_inset
+
+) 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Si los monomios 
+\series bold
+no son semejantes
+\series default
+ la suma o resta se deja indicada.
+ Si una expresión algebraica está formada por monomios no todos ellos semejantes
+, únicamente se suman o restan los que son semejantes entre si.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $3x+2x^{2}+7x-x^{2}=$
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $10x-x^{2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Esta operación recibe el nombre de 
+\series bold
+reducción de términos semejantes
+\series default
+.
+\end_layout
+
+\end_deeper
+\begin_layout EndFrame
+
+\end_layout
+
+\begin_layout BeginFrame
+Ejercicios
+\end_layout
+
+\begin_layout ExampleBlock
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{Relaciona las expresiones de la izquierda con la derecha}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout ColumnsCenterAligned
+
+\end_layout
+
+\begin_deeper
+\begin_layout Column
+4cm
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="4" columns="2">
+<features>
+<column alignment="left" valignment="top" width="0">
+<column alignment="left" valignment="top" width="0">
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\color blue
+a)
+\begin_inset Formula $3x^{2}+5x^{2}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\color blue
+1)
+\begin_inset Formula $-8x^{2}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\color blue
+b)
+\begin_inset Formula $3x^{2}-5x^{2}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\color blue
+2)
+\begin_inset Formula $2x^{2}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\color blue
+c)
+\begin_inset Formula $-3x^{2}+5x^{2}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\color blue
+3)
+\begin_inset Formula $-2x^{2}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\color blue
+d)
+\begin_inset Formula $-3x^{2}-5x^{2}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\color blue
+4) 
+\begin_inset Formula $8x^{2}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout ColumnsCenterAligned
+
+\end_layout
+
+\begin_deeper
+\begin_layout Column
+5cm
+\end_layout
+
+\begin_layout Standard
+a)
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \dotfill{}
+\end_inset
+
+4)
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+b)
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \dotfill{}
+\end_inset
+
+3)
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+c)
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \dotfill{}
+\end_inset
+
+2)
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+d)
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \dotfill{}
+\end_inset
+
+1)
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout AlertBlock
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{Selecciona la opción correcta}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout ColumnsCenterAligned
+
+\end_layout
+
+\begin_deeper
+\begin_layout Column
+6cm
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename img/perroguepardo.jpg
+	width 4cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+La edad del perro es superior en 3 años a la del guepardo.
+ Si representamos con x la edad del perro, ¿Cuál de las siguientes expresiones
+ algebraicas indica la suma de las edades de los dos animales?
+\end_layout
+
+\begin_layout Column
+3cm
+\end_layout
+
+\begin_layout Itemize
+a) 
+\begin_inset Formula $x+3$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+b) 
+\begin_inset Formula $x-3$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+c) 
+\begin_inset Formula $2x+3$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+d) 
+\begin_inset Formula $x^{2}+3$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+SOLUCIÓN:
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \dotfill{}
+\end_inset
+
+
+\color blue
+c)
+\end_layout
+
+\begin_layout Standard
+
+\color blue
+\begin_inset Formula $x+\left(x+3\right)=x+x+3=2x+3$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout EndFrame
+
+\end_layout
+
+\begin_layout Subsection
+Producto
+\end_layout
+
+\begin_layout BeginFrame
+Operaciones con Monomios - Producto
+\end_layout
+
+\begin_layout Block
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+<1->
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{Producto  de Monomios}
+\end_layout
+
+\end_inset
+
+Para 
+\series bold
+multiplicar
+\series default
+ dos 
+\series bold
+monomios
+\series default
+ se multiplican los coeficientes y se multiplican las partes literales.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\color red
+\begin_inset Formula $8x^{5}\cdot3x^{2}=$
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $(8\cdot3)\cdot\left(x^{5}\cdot x^{2}\right)=(8\cdot3)\cdot x^{5+2}=24x^{7}$
+\end_inset
+
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\color red
+\begin_inset Formula $-x\cdot5x=$
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $\left(\left(-1\right)\cdot5\right)\cdot\left(x\cdot x\right)=-5x^{2}$
+\end_inset
+
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\color red
+\begin_inset Formula $\frac{x^{2}}{2}\cdot\frac{3}{2}x^{2}=$
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Formula $\left(\frac{1}{2}\cdot\frac{3}{2}\right)\cdot\left(x^{2}\cdot x^{2}\right)=\frac{3}{4}x^{4}$
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\color red
+\begin_inset Formula $10x^{2}y\cdot2xy=$
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $\left(10\cdot2\right)\cdot\left(x^{2}\cdot y\cdot x\cdot y\right)=20x^{3}y^{2}$
+\end_inset
+
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Para 
+\series bold
+multiplicar un número por un monomio
+\series default
+ se multiplica el número por el coeficiente del monomio y se deja la misma
+ parte literal.
+\end_layout
+
+\begin_layout Itemize
+
+\color blue
+\begin_inset Formula $-2\cdot5x=$
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $\left(-2\right)\cdot x^{0}\cdot5\cdot x^{1}=\left(\left(-2\right)\cdot5\right)\cdot\left(x^{0+1}\right)=-10x$
+\end_inset
+
+
+\color inherit
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Así, el resultado obtenido tanto al multiplicar dos monomios como al multiplicar
+ un número por un monomio es un monomio.
+\end_layout
+
+\end_deeper
+\begin_layout EndFrame
+
+\end_layout
+
+\begin_layout BeginFrame
+Ejercicios
+\end_layout
+
+\begin_layout ExampleBlock
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{Relaciona las expresiones de la izquierda con la derecha}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout ColumnsCenterAligned
+
+\end_layout
+
+\begin_deeper
+\begin_layout Column
+6cm
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="4" columns="2">
+<features>
+<column alignment="left" valignment="top" width="0">
+<column alignment="left" valignment="top" width="0">
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\color blue
+a)
+\begin_inset Formula $-4x\cdot2x$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\color blue
+1)
+\begin_inset Formula $8x^{2}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\color blue
+b)
+\begin_inset Formula $-4\cdot2x^{3}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\color blue
+2)
+\begin_inset Formula $-8x^{2}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\color blue
+c)
+\begin_inset Formula $2x\cdot\left(-2x\right)\cdot\left(-2x\right)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\color blue
+3)
+\begin_inset Formula $-8x^{3}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\color blue
+d)
+\begin_inset Formula $\left(-8x\right)\cdot\left(-x\right)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\color blue
+4) 
+\begin_inset Formula $8x^{3}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout ColumnsCenterAligned
+
+\end_layout
+
+\begin_deeper
+\begin_layout Column
+3cm
+\end_layout
+
+\begin_layout Standard
+a)
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \dotfill{}
+\end_inset
+
+2)
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+b)
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \dotfill{}
+\end_inset
+
+3)
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+c)
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \dotfill{}
+\end_inset
+
+4)
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+d)
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \dotfill{}
+\end_inset
+
+1)
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout AlertBlock
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{Selecciona la opción correcta}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout ColumnsCenterAligned
+
+\end_layout
+
+\begin_deeper
+\begin_layout Column
+6cm
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename img/cuadro.jpg
+	width 4cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+La altura de una lámina rectangular mide la tercera parte de lo que mide
+ su base.
+ Si representamos por x la longitud de la base, ¿cuál de los siguientes
+ monomios indica el área de la lámina?
+\end_layout
+
+\begin_layout Column
+6cm
+\end_layout
+
+\begin_layout Itemize
+a) 
+\begin_inset Formula $3x$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+b) 
+\begin_inset Formula $3x^{2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+c) 
+\begin_inset Formula $\frac{2}{3}x^{2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+d) 
+\begin_inset Formula $\frac{1}{3}x^{2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+SOLUCIÓN:
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \dotfill{}
+\end_inset
+
+
+\color blue
+d)
+\end_layout
+
+\begin_layout Standard
+
+\size small
+\color blue
+Llamo 
+\begin_inset Formula $x$
+\end_inset
+
+ a la base.
+ La altura será 
+\begin_inset Formula $\frac{1}{3}x$
+\end_inset
+
+.
+ Como el área es base x altura, la expresión será: 
+\begin_inset Formula $x\cdot\frac{1}{3}x=\frac{1}{3}x^{2}$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout EndFrame
+
+\end_layout
+
+\begin_layout Section
+Ecuaciones
+\end_layout
+
+\begin_layout BeginFrame
+Índice
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size larger
+ECUACIONES
+\end_layout
+
+\begin_layout EndFrame
+
+\end_layout
+
+\begin_layout Subsection
+Propiedades
+\end_layout
+
+\begin_layout BeginFrame
+Igualdades Algebraicas
+\end_layout
+
+\begin_layout Block
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+<1->
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{Definición y características}
+\end_layout
+
+\end_inset
+
+Una igualdad está formada por dos expresiones separadas por el signo =.
+ Si en alguna de ellas intervienen letras se tiene una 
+\series bold
+igualdad algebraica
+\series default
+.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Son ejemplos de igualdades algebraicas:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Formula $2x^{2}+3=0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $x=2$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $3=x+1$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $x+x=2x$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+\begin_inset Formula $7+2=9$
+\end_inset
+
+, no es una igualda algebraica, es una igualdad numérica
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+Ejercicios: Igualdades algebraicas o numéricas:
+\end_layout
+
+\begin_layout Standard
+
+\color green
+\begin_inset Formula $5x^{3}+2=8$
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \dotfill{}
+\end_inset
+
+Algebraica
+\end_layout
+
+\begin_layout Standard
+
+\color green
+\begin_inset Formula $7+3=10$
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \dotfill{}
+\end_inset
+
+Numérica
+\end_layout
+
+\begin_layout Standard
+
+\color green
+\begin_inset Formula $4x=2^{2}$
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \dotfill{}
+\end_inset
+
+Algebraica
+\end_layout
+
+\begin_layout Standard
+
+\color green
+\begin_inset Formula $2+3=3-\left(8-10\right)$
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \dotfill{}
+\end_inset
+
+Numérica
+\end_layout
+
+\begin_layout EndFrame
+
+\end_layout
+
+\begin_layout BeginFrame
+Identidades y Ecuaciones
+\end_layout
+
+\begin_layout Block
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+<1->
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{Tipos de Igualdades algebraicas}
+\end_layout
+
+\end_inset
+
+Las igualdades algebraicas pueden ser de dos tipos: 
+\series bold
+Identidades o ecuaciones
+\series default
+.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Identidades son aquellas que se cumplen para cualquier valor de la x:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Formula $x+x=2x$
+\end_inset
+
+ es una identidad
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+.
+ 
+\color cyan
+Si sustituimos la x, por ejemplo, por 3: 
+\begin_inset Formula $3+3=2\cdot3$
+\end_inset
+
+.
+ Puedes probar con cualquier otro valor de la x y verás que se cumple la
+ igualdad.
+\color inherit
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Ecuaciones, son las igualdades algebraicas que no son identidades:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Formula $x+x=3x$
+\end_inset
+
+ es una ecuación, 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\color cyan
+Si sustituimos la x, por ejemplo, por 4: 
+\begin_inset Formula $4+4\neq3\cdot4$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+Ejercicios: Identidad o ecuación:
+\end_layout
+
+\begin_layout Standard
+
+\color green
+\begin_inset Formula $5x^{3}+2=8$
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \dotfill{}
+\end_inset
+
+Ecuación
+\end_layout
+
+\begin_layout Standard
+
+\color green
+\begin_inset Formula $7x+3x=10x$
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \dotfill{}
+\end_inset
+
+Identidad
+\end_layout
+
+\begin_layout Standard
+
+\color green
+\begin_inset Formula $x^{2}+2-x^{2}=2$
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \dotfill{}
+\end_inset
+
+Identidad
+\end_layout
+
+\begin_layout Standard
+
+\color green
+\begin_inset Formula $2x+3=3x+3$
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \dotfill{}
+\end_inset
+
+Ecuación
+\end_layout
+
+\begin_layout EndFrame
+
+\end_layout
+
+\begin_layout BeginFrame
+Ecuaciones
+\end_layout
+
+\begin_layout Block
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+<1->
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{Conceptos}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+Sea la siguiente igualdad algebraica: 
+\begin_inset Formula $x+5=11$
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\size footnotesize
+Es una 
+\series bold
+ecuación
+\series default
+ porque sólo es cierta para un determinado valor de la letra x (a la que
+ llamaremos 
+\series bold
+incógnita
+\series default
+).
+ Sólo se cumple si x es 6.
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\size footnotesize
+Llamaremos 
+\series bold
+solución
+\series default
+ de una ecuación al valor de la x que hace que la igualdad se cumpla.
+ Tiene como solución 
+\begin_inset Formula $x=6$
+\end_inset
+
+, porque 
+\begin_inset Formula $6+5=11$
+\end_inset
+
+.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\size footnotesize
+Llamaremos 
+\series bold
+primer miembro
+\series default
+ a la parte que queda a la izquierda del 
+\begin_inset Quotes eld
+\end_inset
+
+=
+\begin_inset Quotes erd
+\end_inset
+
+.
+ Y 
+\series bold
+segundo miembro
+\series default
+ a la parte de la derecha.
+ 
+\begin_inset Formula $x+5$
+\end_inset
+
+ es el primer término y 
+\begin_inset Formula $11$
+\end_inset
+
+ es el segundo
+\end_layout
+
+\begin_layout Itemize
+
+\size footnotesize
+A los monomios que aparezcan les llamaremos miembros: 
+\begin_inset Formula $x$
+\end_inset
+
+, 
+\begin_inset Formula $5$
+\end_inset
+
+ y 
+\begin_inset Formula $11$
+\end_inset
+
+ son los 
+\series bold
+miembros
+\series default
+ de la ecuación
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+Fíjate en la siguiente tabla:
+\end_layout
+
+\begin_layout Standard
+
+\size small
+\begin_inset Tabular
+<lyxtabular version="3" rows="5" columns="4">
+<features>
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+\color red
+Primer Miembro
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+\color red
+Segundo Miembro
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+\color red
+Incógnita
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+\color red
+\begin_inset Formula $2=x-3$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $2$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $x-3$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $x$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+\color red
+\begin_inset Formula $3a=6$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $3a$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $6$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $a$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+\color red
+\begin_inset Formula $5y-4=y-3$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $5y-4$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $y-3$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $y$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+\color red
+\begin_inset Formula $-b+5=2b$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $-b+5$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $2b$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $b$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout EndFrame
+
+\end_layout
+
+\begin_layout Subsection
+Solución de una ecuación
+\end_layout
+
+\begin_layout BeginFrame
+Solución de una Ecuación por tanteo
+\end_layout
+
+\begin_layout Block
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{Recuerda}
+\end_layout
+
+\end_inset
+
+Un número es 
+\series bold
+solución
+\series default
+ de la ecuación si al sustituir la incógnita por este número la igualdad
+ se verifica.
+ Así, el número 6 es solución de la ecuación 
+\color cyan
+x+5=11
+\color inherit
+ ya que al sustituir x por 6 se obtiene la igualdad 6+5=11.
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout AlertBlock
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{Solución por tanteo}
+\end_layout
+
+\end_inset
+
+Dada una ecuación, por ejemplo 
+\color cyan
+
+\begin_inset Formula $x+3=2$
+\end_inset
+
+ 
+\color inherit
+podemos utilizar la estrategia del tanteo:
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\size small
+Para x=0, el valor numérico de la expresión de la izquierda es 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+ 3 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+y el de la derecha es 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+ 2 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+, 
+\begin_inset Formula $3\neq2$
+\end_inset
+
+ por tanto 0 no es solución
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\size small
+Para x=1, el valor numérico de la expresión de la izquierda es 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+ 4 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+.
+ 
+\begin_inset Formula $4\neq2$
+\end_inset
+
+ luego 1 no es solución.
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\size small
+Probemos con x=-1, el valor numérico de la expresión de la izquierda es
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+ 2 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+y el de la derecha es 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+ 2 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+, 
+\begin_inset Formula $2=2$
+\end_inset
+
+, y por tanto 
+\begin_inset Formula $x=-1$
+\end_inset
+
+ es la solución
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout EndFrame
+
+\end_layout
+
+\begin_layout BeginFrame
+Solución de una Ecuación
+\end_layout
+
+\begin_layout Block
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{Ejercicios}
+\end_layout
+
+\end_inset
+
+Busca por tanteo las soluciones a las siguientes ecuaciones:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Formula $x-1=4$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $3x=6$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $2x+5=11$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+
+\series bold
+\bar under
+Soluciones:
+\series default
+\bar default
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $x-1=4$
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\color red
+
+\begin_inset space \rightarrowfill{}
+\end_inset
+
+
+\size scriptsize
+\color magenta
+¿A qué número hay que restar 1 para obtener 4?
+\size default
+\color inherit
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause
+\end_layout
+
+\end_inset
+
+
+\color red
+
+\begin_inset space \rightarrowfill{}
+\end_inset
+
+
+\color inherit
+ 5
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $3x=6$
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\color red
+
+\begin_inset space \rightarrowfill{}
+\end_inset
+
+
+\size scriptsize
+\color magenta
+¿El triple de qué número es 6?
+\size default
+\color red
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \rightarrowfill{}
+\end_inset
+
+
+\color inherit
+ 2
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $2x+5=11$
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\color red
+
+\begin_inset space \rightarrowfill{}
+\end_inset
+
+
+\size tiny
+\color magenta
+¿A qué número hay que restar 5 para obtener 11?¿Cuál es el triple de 2?
+\size default
+\color inherit
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause
+\end_layout
+
+\end_inset
+
+
+\color red
+
+\begin_inset space \rightarrowfill{}
+\end_inset
+
+
+\color inherit
+ 3
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout ColumnsCenterAligned
+
+\end_layout
+
+\begin_deeper
+\begin_layout Column
+11cm
+\end_layout
+
+\begin_layout Standard
+
+\shape slanted
+\color red
+¡Veamos cómo podemos mecanizar la resolución de ecuaciones!
+\end_layout
+
+\end_deeper
+\begin_layout EndFrame
+
+\end_layout
+
+\begin_layout Subsection
+Equivalencia de ecuaciones
+\end_layout
+
+\begin_layout BeginFrame
+Ecuaciones equivalentes
+\end_layout
+
+\begin_layout Block
+
+\size scriptsize
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{Ejercicios}
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+\size scriptsize
+Dos ecuaciones que tienen las mismas soluciones se dice que son 
+\series bold
+ecuaciones equivalentes
+\end_layout
+
+\begin_layout Itemize
+
+\size scriptsize
+\begin_inset Formula $x-1=4$
+\end_inset
+
+ y 
+\begin_inset Formula $2x=10$
+\end_inset
+
+ son equivalentes (5 es la solución de las dos) 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout AlertBlock
+
+\size small
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{¿Cómo resolver ecuaciones?}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+\size small
+Podemos ir transformando las ecuaciones en ecuaciones equivalentes pero
+ más sencillas que la anterior hasta que obtengamos una muy sencilla de
+ resolver
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout ExampleBlock
+
+\size small
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{Reglas de equivalencia}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\size footnotesize
+Si sumamos o restamos una misma cantidad a ambos miembros de la ecuación
+ obtenemos una ecuación equivalente
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\size footnotesize
+\begin_inset Formula $x+5=8$
+\end_inset
+
+ es equivalente a 
+\begin_inset Formula $x+5-5=8-5$
+\end_inset
+
+, o lo que es lo mismo x=3.
+ Solución: 3
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\size footnotesize
+Si multiplicamos o dividimos una misma cantidad a ambos miembros de una
+ ecuación obtenemos una ecuación equivalente
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\size footnotesize
+\begin_inset Formula $2x=6$
+\end_inset
+
+ es equivalente a 
+\begin_inset Formula $\frac{2x}{2}=\frac{6}{2}$
+\end_inset
+
+, que es lo mismo que x=3.
+ Solución:3
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+
+\size small
+Veamos esto último con más detalle
+\end_layout
+
+\begin_layout EndFrame
+
+\end_layout
+
+\begin_layout BeginFrame
+Reglas de equivalencia.
+ Sumas y restas
+\end_layout
+
+\begin_layout Standard
+Las ecuaciones podemos representarlas con una balanza:
+\end_layout
+
+\begin_layout Block
+
+\size scriptsize
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{x+5=8}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout ColumnsCenterAligned
+
+\end_layout
+
+\begin_deeper
+\begin_layout Column
+5cm
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\bar under
+\color red
+Balanza Algebraica
+\end_layout
+
+\begin_layout Standard
+
+\size scriptsize
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Graphics
+	filename /media/disco_compartido/Dropbox/nube_carlos/cortes/recursos/1eso/algebra/img/balanza.png
+	width 5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Ecuación Original
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Column
+5cm
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\bar under
+\color red
+Explicación 
+\end_layout
+
+\begin_layout Standard
+Inicialmente tenemos la ecuación 
+\begin_inset Formula ${\color{cyan}x+5=8}$
+\end_inset
+
+ 
+\begin_inset Newline newline
+\end_inset
+
+
+\size small
+¿Qué pasa si quitamos 5 unidades de la derecha y de la izquierda?
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+La balanza se debería mantener, puesto que quitamos las mismas unidades.
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Algebraicamente: 
+\begin_inset Formula ${\color{cyan}x+5}{\color{red}-5}{\color{cyan}=8}{\color{red}-5}$
+\end_inset
+
+ (hemos restado ambos miembros por 5)
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout EndFrame
+
+\end_layout
+
+\begin_layout BeginFrame
+Reglas de equivalencia.
+ Sumas y restas
+\end_layout
+
+\begin_layout Block
+
+\size scriptsize
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{x+5=8 (Continuación)}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout ColumnsCenterAligned
+
+\end_layout
+
+\begin_deeper
+\begin_layout Column
+5cm
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\bar under
+\color red
+Balanza Algebraica
+\end_layout
+
+\begin_layout Standard
+
+\size scriptsize
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Graphics
+	filename /media/disco_compartido/Dropbox/nube_carlos/cortes/recursos/1eso/algebra/img/balanza2.png
+	width 5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Ecuación Equivalente
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Column
+5cm
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\bar under
+\color red
+Explicación 
+\end_layout
+
+\begin_layout Standard
+Fíjate: Inicialmente teníamos la ecuación 
+\color cyan
+
+\begin_inset Formula $x+5=8$
+\end_inset
+
+
+\color inherit
+ 
+\begin_inset Newline newline
+\end_inset
+
+
+\size small
+Hemos quitado 5 unidades a ambos miembros.
+ La balanza se mantiene en equilibrio.
+ ¿Cuál es la ecuación equivalente resultante?
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula ${\color{cyan}x+5-5=8-5}$
+\end_inset
+
+, que operando es:
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula ${\color{cyan}x=3}$
+\end_inset
+
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\color red
+Solución:
+\color inherit
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+x vale 3.
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+
+\emph on
+\color red
+De manera práctica:
+\emph default
+\color inherit
+ El 5 está sumando en un miembro, pasa al otro restando (y al revés uno
+ restando pasa al otro lado sumando)
+\end_layout
+
+\begin_layout EndFrame
+
+\end_layout
+
+\begin_layout BeginFrame
+Ejercicios de Regla de equivalencia
+\end_layout
+
+\begin_layout AlertBlock
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{Recuerda: Regla de equivalencia de sumas y restas}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Si sumamos o restamos la misma cantidad a ambos miembros de una ecuación
+ obtenemos otra ecuación equivalente a la primera
+\end_layout
+
+\begin_layout Itemize
+O de forma práctica, un término que está sumando puede pasar al otro lado
+ restando.
+ O si está restando pasará sumando
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+Resuelve las siguientes ecuaciones
+\end_layout
+
+\begin_layout ColumnsTopAligned
+
+\end_layout
+
+\begin_deeper
+\begin_layout Column
+3cm
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Formula $x+7=12$
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\color blue
+\begin_inset Formula $x+7-7=12-7$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\color blue
+\begin_inset Formula $x=5$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+Solución: x es 5
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Column
+3cm
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Formula $5+x=12$
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\color blue
+\begin_inset Formula $5+x-5=12-5$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\color blue
+\begin_inset Formula $x=7$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+Solución: x es 7
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Column
+3cm
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Formula $5=12+x$
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\color blue
+\begin_inset Formula $5-12=12+x-12$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\color blue
+\begin_inset Formula $-7=x$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+Solución: x es -7
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout EndFrame
+
+\end_layout
+
+\begin_layout BeginFrame
+Reglas de equivalencia.
+ Multiplicación y división
+\end_layout
+
+\begin_layout Standard
+Las ecuaciones podemos representarlas con una balanza:
+\end_layout
+
+\begin_layout Block
+
+\size scriptsize
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{2x=6}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout ColumnsCenterAligned
+
+\end_layout
+
+\begin_deeper
+\begin_layout Column
+5cm
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\bar under
+\color red
+Balanza Algebraica
+\end_layout
+
+\begin_layout Standard
+
+\size scriptsize
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Graphics
+	filename /media/disco_compartido/Dropbox/nube_carlos/cortes/recursos/1eso/algebra/img/Balanza3.png
+	width 5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Ecuación Original
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Column
+5cm
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\bar under
+\color red
+Explicación 
+\end_layout
+
+\begin_layout Standard
+Inicialmente tenemos la ecuación 
+\begin_inset Formula ${\color{cyan}2x=6}$
+\end_inset
+
+ 
+\begin_inset Newline newline
+\end_inset
+
+
+\size small
+¿Qué pasa si quitamos la mitad del peso de la derecha y de la izquierda?
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+La balanza se debería mantener, puesto que quitamos la mitad de cada lado.
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Algebraicamente: 
+\begin_inset Formula ${\color{cyan}2x}{\color{red}:2}{\color{cyan}=6}{\color{red}:2}$
+\end_inset
+
+ (hemos dividido ambos miembros por 2)
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout EndFrame
+
+\end_layout
+
+\begin_layout BeginFrame
+Reglas de equivalencia.
+ Multiplicación y división
+\end_layout
+
+\begin_layout Block
+
+\size scriptsize
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{2x=6 (Continuación)}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout ColumnsCenterAligned
+
+\end_layout
+
+\begin_deeper
+\begin_layout Column
+5cm
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\bar under
+\color red
+Balanza Algebraica
+\end_layout
+
+\begin_layout Standard
+
+\size scriptsize
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Graphics
+	filename /media/disco_compartido/Dropbox/nube_carlos/cortes/recursos/1eso/algebra/img/Balanza4.png
+	width 5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Ecuación Equivalente
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Column
+5cm
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\bar under
+\color red
+Explicación 
+\end_layout
+
+\begin_layout Standard
+Fíjate: Inicialmente teníamos la ecuación 
+\color cyan
+
+\begin_inset Formula $2x=6$
+\end_inset
+
+
+\color inherit
+ 
+\begin_inset Newline newline
+\end_inset
+
+
+\size small
+Hemos quitado la mitad de unidades a ambos miembros.
+ La balanza se mantiene en equilibrio.
+ ¿Cuál es la ecuación equivalente resultante?
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula ${\color{cyan}\frac{2x}{2}=\frac{6}{2}}$
+\end_inset
+
+, que operando es:
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula ${\color{cyan}x=3}$
+\end_inset
+
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\color red
+Solución:
+\color inherit
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+x vale 3.
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+
+\emph on
+\color red
+De manera práctica:
+\emph default
+\color inherit
+ El 2 está multiplicando a la x, pasa al otro dividiendo a todo (y al revés
+ algo dividiendo pasa al otro lado multiplicando)
+\end_layout
+
+\begin_layout EndFrame
+
+\end_layout
+
+\begin_layout BeginFrame
+Ejercicios de Regla de equivalencia
+\end_layout
+
+\begin_layout AlertBlock
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{Recuerda: Regla de equivalencia de multiplicación  y división}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Si multiplicamos o dividimos la misma cantidad a ambos miembros de una ecuación
+ obtenemos otra ecuación equivalente a la primera
+\end_layout
+
+\begin_layout Itemize
+O de forma práctica, un número que está multiplicando a todo el miembro
+ puede pasar al otro lado dividiendo.
+ O si está dividiendo pasará multiplicando
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+Resuelve las siguientes ecuaciones
+\end_layout
+
+\begin_layout ColumnsTopAligned
+
+\end_layout
+
+\begin_deeper
+\begin_layout Column
+3cm
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Formula $3x=12$
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\color blue
+\begin_inset Formula $\frac{3x}{3}=\frac{12}{3}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\color blue
+\begin_inset Formula $x=4$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+Solución: x es 4
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Column
+3cm
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Formula $\frac{x}{5}=10$
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\color blue
+\begin_inset Formula $\frac{5x}{5}=10\cdot5$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\color blue
+\begin_inset Formula $x=50$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+Solución: x es 50
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Column
+3cm
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Formula $24=12x$
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\color blue
+\begin_inset Formula $\frac{24}{12}=\frac{12x}{12}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\color blue
+\begin_inset Formula $2=x$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+Solución: x es 2
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout EndFrame
+
+\end_layout
+
+\begin_layout Subsection
+Resolución general de ecuaciones
+\end_layout
+
+\begin_layout BeginFrame
+Resolución general de ecuaciones
+\end_layout
+
+\begin_layout Standard
+Veamos como resolver ecuaciones más complejas, fíjate en los pasos:
+\end_layout
+
+\begin_layout ColumnsCenterAligned
+
+\end_layout
+
+\begin_deeper
+\begin_layout Column
+7cm
+\end_layout
+
+\begin_layout Block
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{7x-2=5x+4}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Primero: 
+\size footnotesize
+Realizamos una transposición de términos pasando a un miembro todos los
+ términos que contienen la incógnita y al otro miembro los que no la contienen:
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Formula $7x{\color{red}-2}={\color{red}5x}+4$
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Formula ${\color{cyan}7x-5x=4+2}$
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Segundo: 
+\size footnotesize
+Realizamos las operaciones correspondientes:
+\size default
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+
+\color cyan
+\begin_inset Formula $2x=6$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Tercero: 
+\size footnotesize
+Despejamos la incognita:
+\size default
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+
+\color cyan
+\begin_inset Formula $x=\frac{6}{2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\color cyan
+\begin_inset Formula $x=3$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Column
+3cm
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align block
+
+\size small
+Es una buena costumbre comprobar la solución:
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Formula $7x-2=5x+4$
+\end_inset
+
+ si hacemos x=3 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\color blue
+\begin_inset Formula $7\cdot3-2=5\cdot3+4$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\color blue
+\begin_inset Formula $21-2=15+4$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\color blue
+\begin_inset Formula $19=19$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout EndFrame
+
+\end_layout
+
+\begin_layout BeginFrame
+Ejercicios
+\end_layout
+
+\begin_layout Standard
+Resuelve las siguientes ecuaciones
+\end_layout
+
+\begin_layout ColumnsTopAligned
+
+\end_layout
+
+\begin_deeper
+\begin_layout Column
+3cm
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Formula $3x-3=12$
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\color blue
+\begin_inset Formula $3x=12+3$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\color blue
+\begin_inset Formula $3x=15$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\color blue
+\begin_inset Formula $x=\frac{15}{3}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\color blue
+\begin_inset Formula $x=5$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+Solución: x es 5
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Column
+3cm
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Formula $\frac{x}{5}-3=12$
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\color blue
+\begin_inset Formula $\frac{x}{5}=12+3$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\color blue
+\begin_inset Formula $\frac{x}{5}=15$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\color blue
+\begin_inset Formula $x=15\cdot5$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\color blue
+\begin_inset Formula $x=75$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+Solución: x es 75
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Column
+3cm
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Formula $24-3x=12x-21$
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\color blue
+\begin_inset Formula $24+21=12x+3x$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\color blue
+\begin_inset Formula $45=15x$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\color blue
+\begin_inset Formula $\frac{45}{15}=x$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\color blue
+\begin_inset Formula $3=x$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+Solución: x es 3
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout EndFrame
+
+\end_layout
+
+\begin_layout BeginFrame
+Problemas con ecuaciones
+\end_layout
+
+\begin_layout Standard
+
+\size small
+Algunos 
+\series bold
+problemas
+\series default
+ se pueden resolver traduciendo el lenguaje natural a lenguaje algebraico,
+ y en el caso de obtener una ecuación y resolverla
+\end_layout
+
+\begin_layout ExampleBlock
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{Enunciado}
+\end_layout
+
+\end_inset
+
+El doble de un número menos 2 es 8.
+ ¿Qué número es?
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout ColumnsCenterAligned
+
+\end_layout
+
+\begin_deeper
+\begin_layout Column
+5cm
+\end_layout
+
+\begin_layout Itemize
+No conocemos el número, luego le llamo x
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Quotes eld
+\end_inset
+
+el doble de un número menos 2
+\begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \rightarrowfill{}
+\end_inset
+
+
+\begin_inset Formula ${\color{red}2x-2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Quotes eld
+\end_inset
+
+es igual a 8
+\begin_inset Quotes erd
+\end_inset
+
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \rightarrowfill{}
+\end_inset
+
+
+\color red
+
+\begin_inset Formula $2x-2=8$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Column
+5cm
+\end_layout
+
+\begin_layout Itemize
+\paragraph_spacing single
+Resuelvo la ecuación:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\color blue
+\begin_inset Formula $2x-2=8$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\color blue
+\begin_inset Formula $2x=10$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\color blue
+\begin_inset Formula $x=\frac{10}{2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\color blue
+\begin_inset Formula $x=5$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Comprobamos la solución: 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+El doble de 5 es 10, 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+si le quito 2 obtengo 8
+\end_layout
+
+\end_deeper
+\begin_layout EndFrame
+
+\end_layout
+
+\begin_layout BeginFrame
+Problemas con ecuaciones
+\end_layout
+
+\begin_layout ExampleBlock
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{Enunciado}
+\end_layout
+
+\end_inset
+
+En una clase hay 28 alumnos y el número de chicos es inferior en 4 al número
+ de chicas.
+ ¿Cuántos chicos y chicas hay?
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout ColumnsCenterAligned
+
+\end_layout
+
+\begin_deeper
+\begin_layout Column
+5cm
+\end_layout
+
+\begin_layout Itemize
+No conocemos el número de chicos, luego le llamo x.
+ Nota que cuando resuelva la ecuación x será el número de chicos (no de
+ chicas).
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Quotes eld
+\end_inset
+
+el número de chicos es inferior en 4 al de chicas
+\begin_inset Quotes erd
+\end_inset
+
+.
+ Chicas hay 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \rightarrowfill{}
+\end_inset
+
+
+\begin_inset Formula ${\color{red}x+4}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Quotes eld
+\end_inset
+
+en total hay 28
+\begin_inset Quotes erd
+\end_inset
+
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \rightarrowfill{}
+\end_inset
+
+
+\color red
+
+\begin_inset Formula $x+\left(x+4\right)=28$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Column
+5cm
+\end_layout
+
+\begin_layout Itemize
+\paragraph_spacing single
+Resuelvo la ecuación:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\color blue
+\begin_inset Formula $x+\left(x+4\right)=28$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\color blue
+\begin_inset Formula $2x+4=28$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\color blue
+\begin_inset Formula $2x=24$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\color blue
+\begin_inset Formula $x=12$
+\end_inset
+
+ (12 chicos y 12+4 chicas)
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Comprobamos la solución: 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+número de chicos es 12, 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+ el de chicas será 12+4=16, y 16+12=28 en total
+\end_layout
+
+\end_deeper
+\begin_layout EndFrame
+
+\end_layout
+
+\end_body
+\end_document
