@@ -15,59 +15,12 @@
                 <h1><a href="/">Repositorio de Matemáticas </a></h1>
                 <nav><ul>
                     <li><a href="/category/general.html">General</a></li>
-                    <li><a href="/category/pelican.html">Pelican</a></li>
                 </ul></nav>
         </header><!-- /#banner -->
 
             <aside id="featured" class="body">
                 <article>
-                    <h1 class="entry-title"><a href="/como-esta-hecho-el-blog.html">¿Cómo está hecho el blog?</a></h1>
-<footer class="post-info">
-        <abbr class="published" title="2015-08-28T00:00:00+02:00">
-                Published: vie 28 agosto 2015
-        </abbr>
-
-        <address class="vcard author">
-                By                         <a class="url fn" href="/author/carlos-rodriguez.html">Carlos Rodríguez</a>
-        </address>
-<p>In <a href="/category/pelican.html">Pelican</a>.</p>
-
-</footer><!-- /.post-info --><p>Este blog está hecho con <strong>Pelican</strong> y está alojado en <strong>Github Pages</strong>. La
-principal razón es la de utilizar Software Libre, y documentar en
-Restructuredtext (.rst). Aparte de las ventajas de usar software libre,
-el poder documentar el blog offline me ha animado a aprender Pelican y
-usarlo.</p>
-<p>He creado un repositorio <em>fuente_web</em> que contiene los artículos en formato .rst</p>
-<p>El caso es que el contenido en .rst hay que transformarlo a .html y
-además hay que alojarlo en el repositorio de <em>GitHub</em> que hace de servidor web.
-Pues bien, además de crear el repositorio <em>es3a10.github.io</em> hay que pasar
-a las fuentes unos script de python que manden el contenido.
-En un terminal y desde la carpeta donde tengamos el repositorio local <em>fuente_web</em>
-tendremos que ejecutar los siguientes comandos:</p>
-<pre class="literal-block">
-$ pelican content -o output -s pelicanconf.py
-$ ghp-import output
-$ git push git&#64;github.com:es3a10/es3a10.github.io.git gh-pages:master
-</pre>
-<p>Otra cosa que hay que hacer, si no se ha hecho, crear una clave pública-privada para
-la conexión ssh al servidro <em>GitHub</em>. La clave RSA hay que meterla en los <em>settings</em>
-de nuestra cuenta <em>GitHub</em>.</p>
-<div class="highlight"><pre>&lt;Esto es un identificador&gt;
-</pre></div>
-                </article>
-            </aside><!-- /#featured -->
-                <section id="content" class="body">
-                    <h1>Other articles</h1>
-                    <hr />
-                    <ol id="posts-list" class="hfeed">
-
-            <li><article class="hentry">
-                <header>
-                    <h1><a href="/presentacion-y-proyecto.html" rel="bookmark"
-                           title="Permalink to Presentación y Proyecto">Presentación y Proyecto</a></h1>
-                </header>
-
-                <div class="entry-content">
+                    <h1 class="entry-title"><a href="/introduccion.html">Introducción</a></h1>
 <footer class="post-info">
         <abbr class="published" title="2015-08-27T00:00:00+02:00">
                 Published: jue 27 agosto 2015
@@ -78,16 +31,12 @@ de nuestra cuenta <em>GitHub</em>.</p>
         </address>
 <p>In <a href="/category/general.html">General</a>.</p>
 
-</footer><!-- /.post-info -->                <p class="first last">Presentación del blog</p>
-
-                <a class="readmore" href="/presentacion-y-proyecto.html">read more</a>
-                </div><!-- /.entry-content -->
-            </article></li>
-                </ol><!-- /#posts-list -->
+</footer><!-- /.post-info --><p>Esta web tiene como objetivo liberar la documentación que se sigue para dar clases de secundaria de matemáticas</p>
+                </article>
 <p class="paginator">
     Page 1 / 1
 </p>
-                </section><!-- /#content -->
+            </aside><!-- /#featured -->
         <section id="extras" class="body">
                 <div class="blogroll">
                         <h2>blogroll</h2>
