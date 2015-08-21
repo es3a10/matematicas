@@ -1,0 +1,22 @@
+1º ESO
+#######################
+
+:date: 2015-07-27
+:tags: 
+:category: General
+:authors: Carlos Rodríguez
+:summary: 
+
+
+Matemáticas de 1º de la ESO. Esta documentación se realizó en 2015
+
+.. figure:: ./images/1eso.png 
+	:width:	400px
+	:alt:	'logo1eso'
+
+#. Álgebra
+==========
+
+Presentación de contenidos:
+
+

@@ -1,0 +1,10 @@
+Introducción
+#######################
+
+:date: 2015-08-27
+:tags: 
+:category: General
+:authors: Carlos Rodríguez
+:summary: 
+
+Esta web tiene como objetivo liberar la documentación que se vaya generando para dar clases de secundaria de matemáticas

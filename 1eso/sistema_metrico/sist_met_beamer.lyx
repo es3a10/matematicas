@@ -1,0 +1,1836 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass beamer
+\begin_preamble
+\usetheme{Madrid}
+%\usecolortheme{default}
+\usecolortheme{seahorse}
+
+\date{}
+\institute{}
+\setbeamertemplate{footline}{}
+%\usecolortheme[named=Mahogany]{structure}
+%handout para que no imprima transiciones
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language spanish
+\language_package default
+\inputencoding utf8
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref true
+\pdf_bookmarks false
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder true
+\pdf_colorlinks false
+\pdf_backref false
+\pdf_pdfusetitle false
+\pdf_pagemode FullScreen
+\pdf_quoted_options "handout"
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 0
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\index Índice
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Sistema Métrico Decimal
+\end_layout
+
+\begin_layout Subtitle
+1º ESO
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+place handout in layout->document->layout->options to suppress overlays
+ for printing
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Índice
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Section
+Medidas de Longitud
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Medidas de Longitud - El metro
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout ExampleBlock
+\begin_inset Argument 1
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+1-
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 2
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+El metro
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+Para medir lo largo y ancho de una clase usamos el metro.
+ La unidad principal de longitud es el metro, que es la distancia entre
+ dos rayitas señaladas en una barra de platino iridiado, que se encuentra
+ en la Oficina Internacional de Pesas y Medidas de París..
+\end_layout
+
+\begin_layout ExampleBlock
+El metro se escribe abreviadamente m.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename img/siste11.jpg
+	width 70col%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Múltiplos y submúltiplos del metro
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename img/siste13.jpg
+	width 50col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Block
+\begin_inset Argument 2
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+Múltiplos.
+ Recuerda
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\size small
+1 decámetro es igual a 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+ 10 metros: 1 dam = 10 m.
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\size small
+1 hectómetro es igual a 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+100 metros: 1 hm = 100 m.
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\size small
+1 kilómetro es igual a 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+1000 metros: 1 km = 1000 m.
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\size small
+1 miriámetro es igual a 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+10000 metros: 1 mam = 10000 m
+\end_layout
+
+\end_deeper
+\begin_layout ExampleBlock
+\begin_inset Argument 2
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+Submúltiplos.
+ Recuerda
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\size small
+1 decímetro es igual a 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+0,1 metro: 1 dm = 0,1 m.
+ 1 metro tiene 10 decímetros.
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\size small
+1 centímetro es igual a 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+0,01 metro: 1 cm = 0,01 m.
+ El metro tiene 100 centímetros.
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\size small
+1 milímetro es igual a 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+0,001 metro: 1 mm = 0,001 m.
+ El metro tiene 1.000 milímetros.
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Cambio entre unidades de Longitud
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout AlertBlock
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+Recuerda
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename /home/minideb/migit/matematicas/1eso/sistema_metrico/img/siste14.jpg
+	width 70col%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout AlertBlock
+Ejercicios:
+\end_layout
+
+\begin_layout AlertBlock
+7,28km en hm
+\begin_inset space \rightarrowfill{}
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+72,8hm
+\end_layout
+
+\begin_layout AlertBlock
+7hm en m
+\begin_inset space \rightarrowfill{}
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+700m
+\end_layout
+
+\begin_layout AlertBlock
+7,35m en mm
+\begin_inset space \rightarrowfill{}
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+7350m
+\end_layout
+
+\begin_layout AlertBlock
+83cm en m
+\begin_inset space \rightarrowfill{}
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+0,83m
+\end_layout
+
+\end_deeper
+\begin_layout Section
+Medidas de Capacidad
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Medidas de Capacidad - El litro
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout ExampleBlock
+\begin_inset Argument 1
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+1-
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 2
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+El litro
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+Las medidas de capacidad son las que sirven para medir líquidos.
+ La unidad es el litro que es la capacidad de un decímetro cúbico.
+ En el dibujo vemos que el líquido de un recipiente de 1 litro cabe en una
+ caja que tiene un decímetro por cada lado.
+\end_layout
+
+\begin_layout ExampleBlock
+El litro se escribe abreviadamente l.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename /home/minideb/migit/matematicas/1eso/sistema_metrico/img/siste21.jpg
+	width 70col%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Múltiplos y submúltiplos del litro
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout ColumnsTopAligned
+
+\end_layout
+
+\begin_deeper
+\begin_layout Column
+4cm
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename /home/minideb/migit/matematicas/1eso/sistema_metrico/img/siste22.jpg
+	width 100col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Column
+7cm
+\end_layout
+
+\begin_layout Block
+\begin_inset Argument 2
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+Múltiplos.
+ Recuerda
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\size footnotesize
+1 decalitro es igual a 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+10 litros: 1 dal = 10 l.
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\size footnotesize
+1 hectolitro es igual a
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+ 100 litros: 1 hl = 100 l.
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\size footnotesize
+1 kilolitro es igual a
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+ 1000 litros: 1 kl = 1000 l.
+ 1 mirialitro es igual a 10000 litros: 1 mal = 10000 l.
+\end_layout
+
+\end_deeper
+\begin_layout ExampleBlock
+\begin_inset Argument 2
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+Submúltiplos.
+ Recuerda
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\size footnotesize
+1 decilitro es igual a 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+ 0,1 litro: 1 dl = 0,1 l.
+ 1 litro tiene 10 decilitros
+\end_layout
+
+\begin_layout Itemize
+
+\size footnotesize
+1 centilitro es igual a 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+ 0,01 litro: 1 cl = 0,01 l.
+ El litro tiene 100 centilitros.
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\size footnotesize
+1 mililitro es igual a 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+ 0,001 litro: 1 ml = 0,001 l.
+ El litro tiene 1.000 mililitros.
+\end_layout
+
+\end_deeper
+\end_deeper
+\end_deeper
+\begin_layout Section
+Medidas de Masa
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Medidas de Masa o Peso - El gramo
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout ExampleBlock
+\begin_inset Argument 1
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+1-
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 2
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+El gramo
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+Un litro de agua pesa 1 kilogramo o 1000 gramos.
+ La unidad de medida de la masa (peso) es el gramo y se escribe g.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename /home/minideb/migit/matematicas/1eso/sistema_metrico/img/siste31.jpg
+	width 70col%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Múltiplos y submúltiplos del gramo
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Block
+\begin_inset Argument 2
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+Múltiplos.
+ Recuerda
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+1 decagramo es igual a 
+\size footnotesize
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\size default
+10 gramos: 1 dag = 10 g.
+ 
+\end_layout
+
+\begin_layout Itemize
+1 hectogramo es igual a 
+\size footnotesize
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\size default
+100 gramos: 1 hg = 100 g.
+ 
+\end_layout
+
+\begin_layout Itemize
+1 kilogramo es igual a 
+\size footnotesize
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\size default
+1000 gramos: 1 kg = 1000 g.
+ 
+\end_layout
+
+\begin_layout Itemize
+1 miriagramo es igual a 
+\size footnotesize
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\size default
+10000 gramos: 1 mag = 10000 g.
+ 
+\end_layout
+
+\begin_layout Itemize
+1 tonelada es igual a 
+\size footnotesize
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\size default
+1000 kilogramos; 1 t = 1000 kg.
+\end_layout
+
+\end_deeper
+\begin_layout ExampleBlock
+\begin_inset Argument 2
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+Submúltiplos.
+ Recuerda
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+1 decigramo es igual a 
+\size footnotesize
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\size default
+0,1 gramo: 1 dg = 0,1 g.
+ 1 gramo tiene 10 decigramos.
+ 
+\end_layout
+
+\begin_layout Itemize
+1 centigramo es igual a 
+\size footnotesize
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\size default
+0,01 gramo: 1 cg = 0,01 g.
+ El gramo tiene 100 centigramos.
+ 
+\end_layout
+
+\begin_layout Itemize
+1 miligramo es igual a 
+\size footnotesize
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\size default
+0,001 gramo: 1 mg = 0,001 g.
+ El gramo tiene 1.000 miligramos.
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Section
+Medidas de Superficie
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Medidas de Superficie - El metro cuadrado
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout ExampleBlock
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+El metro cuadrado
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+El metro cuadrado es el área de un cuadrado que tiene un metro de lado.
+ Se escribe así: 
+\begin_inset Formula $m^{2}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename img/siste41.jpg
+	width 70col%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Múltiplos y submúltiplos del metro cuadrado
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename img/siste43.jpg
+	width 90col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Block
+\begin_inset Argument 2
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+Múltiplos.
+ Recuerda
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\size footnotesize
+1 decámetro cuadrado es igual a 100 metros cuadrados: 1 dam
+\begin_inset Formula $^{\text{2}}$
+\end_inset
+
+ = 100 m
+\begin_inset Formula $^{\text{2}}$
+\end_inset
+
+ .
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\size footnotesize
+1 hectómetro cuadrado es igual a 10000 metros cuadrados: 1 hm
+\begin_inset Formula $^{2}$
+\end_inset
+
+ = 100 00 m
+\begin_inset Formula $^{\text{2}}$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\size footnotesize
+1 kilómetro cuadrado es igual a 1000000 metros cuadrados: 1 km
+\begin_inset Formula $^{\text{2}}$
+\end_inset
+
+ = 100 00 00 m
+\begin_inset Formula $^{\text{2}}$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\size footnotesize
+Se usan medidas agrarias para medir campos.
+ Sus unidades son: 1 hectárea es igual al hm
+\begin_inset Formula $^{\text{2}}$
+\end_inset
+
+: ha = hm
+\begin_inset Formula $^{\text{2}}$
+\end_inset
+
+ = 100 00 m
+\begin_inset Formula $^{\text{2}}$
+\end_inset
+
+.
+ 1 área es igual al dam
+\begin_inset Formula $^{\text{2}}$
+\end_inset
+
+: a = dam
+\begin_inset Formula $^{\text{2}}$
+\end_inset
+
+ = 100 m
+\begin_inset Formula $^{\text{2}}$
+\end_inset
+
+.
+ 1 centiárea igual al m
+\begin_inset Formula $^{\text{2}}$
+\end_inset
+
+: ca = m
+\begin_inset Formula $^{\text{2}}$
+\end_inset
+
+ = 1 m
+\begin_inset Formula $^{\text{2}}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+
+\size footnotesize
+Las unidades de superficie aumentan y disminuyen de 100 en 100.
+ La unidad superior vale 100 más que la inferior.
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Múltiplos y submúltiplos del metro cuadrado
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename img/siste42.jpg
+	width 28col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout ExampleBlock
+\begin_inset Argument 2
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+Submúltiplos.
+ Recuerda
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\size footnotesize
+1 decímetro cuadrado es igual a 0,01 metro cuadrado: 1 dm
+\begin_inset Formula $^{\text{2}}$
+\end_inset
+
+ = 0,01 m
+\begin_inset Formula $^{\text{2}}$
+\end_inset
+
+.
+ 1 m
+\begin_inset Formula $^{\text{2}}$
+\end_inset
+
+ tiene 100 dm
+\begin_inset Formula $^{\text{2}}$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\size footnotesize
+1 centímetro cuadrado es igual a 0,0001 metro cuadrado: 1 cm
+\begin_inset Formula $^{\text{2}}$
+\end_inset
+
+ = 0,0001 m
+\begin_inset Formula $^{\text{2}}$
+\end_inset
+
+.
+ El m2 tiene 10000 cm
+\begin_inset Formula $^{\text{2}}$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\size footnotesize
+1 milímetro cuadrado = 0,000001 metro cuadrado: 1 mm
+\begin_inset Formula $^{\text{2}}$
+\end_inset
+
+ = 0,000001 m
+\begin_inset Formula $^{\text{2}}$
+\end_inset
+
+.
+ El m2 tiene 1000000 m
+\begin_inset Formula $^{\text{2}}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+
+\size footnotesize
+Las unidades de superficie aumentan y disminuyen de 100 en 100.
+ La unidad inferior vale 100 menos que la superior.
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Section
+Medidas de Volumen
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Medidas de Volumen - El metro cúbico
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout ExampleBlock
+\begin_inset Argument 1
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+1-
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 2
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+El metro cúbico
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+El metro cúbico es el volumen de un cubo que tiene un metro de lado.
+ Se escribe así: 
+\begin_inset Formula $m^{3}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout ColumnsTopAligned
+
+\end_layout
+
+\begin_deeper
+\begin_layout Column
+6cm
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename img/siste51.jpg
+	width 28page%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Column
+6cm
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename img/siste52.jpg
+	width 70col%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Múltiplos y submúltiplos del metro cúbico
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Block
+\begin_inset Argument 2
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+Múltiplos.
+ Recuerda
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\size footnotesize
+1 decámetro cúbico es igual a 1000 metros cúbicos: 1 dam
+\begin_inset Formula $^{\text{3}}$
+\end_inset
+
+ = 1000 m
+\begin_inset Formula $^{\text{3}}$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\size footnotesize
+1 hectómetro cúbico es igual a 1000000 metros cúbicos: 1 hm
+\begin_inset Formula $^{\text{3}}$
+\end_inset
+
+ = 1000000 m
+\begin_inset Formula $^{\text{3}}$
+\end_inset
+
+.
+ 1 kilómetro cúbico es igual a 1000000000 metros cúbicos: 1 km
+\begin_inset Formula $^{\text{3}}$
+\end_inset
+
+ = 1000000000 m
+\begin_inset Formula $^{\text{3}}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+
+\size footnotesize
+Las unidades de volumen aumentan y disminuyen de 1000 en 1000.
+ La unidad superior vale 1000 más que la inferior.
+\end_layout
+
+\end_deeper
+\begin_layout AlertBlock
+\begin_inset Argument 2
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+Submúltiplos.
+ Recuerda
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\size footnotesize
+1 decímetro cúbico es igual a 0,001 metro cúbico: 1 dm
+\begin_inset Formula $^{\text{3}}$
+\end_inset
+
+ = 0,001 m
+\begin_inset Formula $^{\text{3}}$
+\end_inset
+
+ .
+ 1 m
+\begin_inset Formula $^{\text{3}}$
+\end_inset
+
+ tiene 1000 dm
+\begin_inset Formula $^{\text{3}}$
+\end_inset
+
+ .
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\size footnotesize
+1 centímetro cúbico es igual a 0,000001 metro cúbico: 1 cm
+\begin_inset Formula $^{\text{3}}$
+\end_inset
+
+ = 0,000001 m
+\begin_inset Formula $^{\text{3}}$
+\end_inset
+
+ .
+ El m
+\begin_inset Formula $^{\text{3}}$
+\end_inset
+
+ tiene 1000000 cm
+\begin_inset Formula $^{\text{3}}$
+\end_inset
+
+ .
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\size footnotesize
+1 milímetro cúbico es igual a 0,000000001 metro cúbico: 1 mm
+\begin_inset Formula $^{\text{3}}$
+\end_inset
+
+ = 0,000000001 m
+\begin_inset Formula $^{\text{3}}$
+\end_inset
+
+ .
+ El m
+\begin_inset Formula $^{\text{3}}$
+\end_inset
+
+ tiene 1000000000 m
+\begin_inset Formula $^{\text{3}}$
+\end_inset
+
+ .
+\end_layout
+
+\begin_layout Itemize
+
+\size footnotesize
+Las unidades de volumen aumentan y disminuyen de 1000 en 1000.
+ La unidad inferior vale 1000 menos que la superior.
+\end_layout
+
+\end_deeper
+\end_deeper
+\end_body
+\end_document

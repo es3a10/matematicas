@@ -1,5 +1,5 @@
-#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
-\lyxformat 345
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
 \begin_document
 \begin_header
 \textclass beamer
@@ -14,18 +14,26 @@
 %\usecolortheme[named=Mahogany]{structure}
 \end_preamble
 \use_default_options true
+\maintain_unincluded_children false
 \language spanish
+\language_package default
 \inputencoding utf8
+\fontencoding global
 \font_roman default
 \font_sans default
 \font_typewriter default
+\font_math auto
 \font_default_family default
+\use_non_tex_fonts false
 \font_sc false
 \font_osf false
 \font_sf_scale 100
 \font_tt_scale 100
-
 \graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
 \paperfontsize default
 \spacing single
 \use_hyperref true
@@ -41,23 +49,42 @@
 \pdf_pagemode FullScreen
 \papersize default
 \use_geometry true
-\use_amsmath 1
-\use_esint 1
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 0
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
 \cite_engine basic
+\cite_engine_type default
+\biblio_style plain
 \use_bibtopic false
+\use_indices false
 \paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\index Índice
+\shortcut idx
+\color #008000
+\end_index
 \secnumdepth 3
 \tocdepth 3
 \paragraph_separation indent
-\defskip medskip
+\paragraph_indentation default
 \quotes_language english
 \papercolumns 1
 \papersides 1
 \paperpagestyle default
 \tracking_changes false
 \output_changes false
-\author "" 
-\author "" 
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
 \end_header
 
 \begin_body
@@ -84,10 +111,20 @@ place handout in layout->document->layout->options to suppress overlays
 
 \end_layout
 
-\begin_layout BeginFrame
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
 Índice
 \end_layout
 
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
 \begin_layout Standard
 \begin_inset CommandInset toc
 LatexCommand tableofcontents
@@ -97,10 +134,7 @@ LatexCommand tableofcontents
 
 \end_layout
 
-\begin_layout EndFrame
-
-\end_layout
-
+\end_deeper
 \begin_layout Section
 Lenguaje algebraico
 \end_layout
@@ -109,10 +143,20 @@ Lenguaje algebraico
 Expresiones Algebraicas
 \end_layout
 
-\begin_layout BeginFrame
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
 Índice
 \end_layout
 
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
 \begin_layout Standard
 \align center
 
@@ -121,32 +165,61 @@ Expresiones Algebraicas
 EL LENGUAJE ALGEBRAICO
 \end_layout
 
-\begin_layout EndFrame
+\end_deeper
+\begin_layout Separator
 
 \end_layout
 
-\begin_layout BeginFrame
-¿Para qué usamos las letras?
-\end_layout
-
-\begin_layout ExampleBlock
-\begin_inset ERT
+\begin_layout Frame
+\begin_inset Argument 4
 status open
 
 \begin_layout Plain Layout
-
-<1->
+¿Para qué usamos las letras?
 \end_layout
 
 \end_inset
 
 
+\end_layout
+
+\begin_deeper
+\begin_layout ExampleBlock
+\begin_inset Argument 1
+status collapsed
+
+\begin_layout Plain Layout
 \begin_inset ERT
 status open
 
 \begin_layout Plain Layout
 
-{Ejemplo}
+1-
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 2
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+Ejemplo
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -164,11 +237,11 @@ Investiga:
 Observa la siguiente suma:
 \begin_inset Tabular
 <lyxtabular version="3" rows="3" columns="4">
-<features>
-<column alignment="center" valignment="top" width="0">
-<column alignment="center" valignment="top" width="0">
-<column alignment="center" valignment="top" width="0">
-<column alignment="center" valignment="top" width="0">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
 <row>
 <cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
@@ -307,12 +380,16 @@ Si c es el número 3, ¿cuáles son los números a y b?
 \end_layout
 
 \begin_layout AlertBlock
+\begin_inset Argument 2
+status collapsed
+
+\begin_layout Plain Layout
 \begin_inset ERT
 status open
 
 \begin_layout Plain Layout
 
-{Solución}
+Solución}
 \end_layout
 
 \end_inset
@@ -344,7 +421,12 @@ status open
 
 
 \backslash
-pause{}
+pause{
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -366,32 +448,56 @@ letras
 .
 \end_layout
 
-\begin_layout EndFrame
+\end_deeper
+\begin_layout Separator
 
 \end_layout
 
-\begin_layout BeginFrame
-El lenguaje algebraico
-\end_layout
-
-\begin_layout Block
-\begin_inset ERT
+\begin_layout Frame
+\begin_inset Argument 4
 status open
 
 \begin_layout Plain Layout
-
-<1->
+El lenguaje algebraico
 \end_layout
 
 \end_inset
 
 
+\end_layout
+
+\begin_deeper
+\begin_layout Block
+\begin_inset Argument 1
+status collapsed
+
+\begin_layout Plain Layout
 \begin_inset ERT
 status open
 
 \begin_layout Plain Layout
 
-{Expresiones Algebraicas}
+1-
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 2
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+Expresiones Algebraicas}
 \end_layout
 
 \end_inset
@@ -408,7 +514,12 @@ status open
 
 
 \backslash
-pause{}
+pause{
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -497,12 +608,11 @@ Observa como se expresan las siguientes operaciones:
 \end_layout
 
 \begin_layout ExampleBlock
-\begin_inset ERT
+\begin_inset Argument 2
 status open
 
 \begin_layout Plain Layout
-
-{Lenguaje Natural y Lenguaje Algebraico}
+Lenguaje Natural y Lenguaje Algebraico
 \end_layout
 
 \end_inset
@@ -659,25 +769,35 @@ pause{}
 
 \end_layout
 
-\begin_layout EndFrame
+\end_deeper
+\begin_layout Separator
 
 \end_layout
 
-\begin_layout BeginFrame
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
 Traducción de Enunciados
 \end_layout
 
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
 \begin_layout Pause
 
 \end_layout
 
 \begin_layout Block
-\begin_inset ERT
+\begin_inset Argument 2
 status open
 
 \begin_layout Plain Layout
-
-{Ejemplo}
+Ejemplo
 \end_layout
 
 \end_inset
@@ -698,6 +818,7 @@ hor_pos "c"
 has_inner_box 1
 inner_pos "c"
 use_parbox 0
+use_makebox 0
 width "30col%"
 special "none"
 height "1in"
@@ -758,12 +879,11 @@ pause{}
 \end_layout
 
 \begin_layout Block
-\begin_inset ERT
+\begin_inset Argument 2
 status open
 
 \begin_layout Plain Layout
-
-{Ejemplo}
+Ejemplo
 \end_layout
 
 \end_inset
@@ -783,6 +903,7 @@ hor_pos "c"
 has_inner_box 1
 inner_pos "c"
 use_parbox 0
+use_makebox 0
 width "30col%"
 special "none"
 height "1in"
@@ -839,25 +960,35 @@ pause{}
  euros
 \end_layout
 
-\begin_layout EndFrame
+\end_deeper
+\begin_layout Separator
 
 \end_layout
 
-\begin_layout BeginFrame
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
 Traducción de enunciados
 \end_layout
 
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
 \begin_layout Pause
 
 \end_layout
 
 \begin_layout Block
-\begin_inset ERT
+\begin_inset Argument 2
 status open
 
 \begin_layout Plain Layout
-
-{Ejemplo}
+Ejemplo
 \end_layout
 
 \end_inset
@@ -995,36 +1126,56 @@ pause{}
 
 \end_deeper
 \end_deeper
-\begin_layout EndFrame
-
-\end_layout
-
+\end_deeper
 \begin_layout Subsection
 Valor numérico de una expresión algebraica
 \end_layout
 
-\begin_layout BeginFrame
-Valor numérico
-\end_layout
-
-\begin_layout Block
-\begin_inset ERT
+\begin_layout Frame
+\begin_inset Argument 4
 status open
 
 \begin_layout Plain Layout
-
-<1->
+Valor numérico
 \end_layout
 
 \end_inset
 
 
+\end_layout
+
+\begin_deeper
+\begin_layout Block
+\begin_inset Argument 1
+status collapsed
+
+\begin_layout Plain Layout
 \begin_inset ERT
 status open
 
 \begin_layout Plain Layout
 
-{Valor Numérico de una expresión}
+1-
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 2
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+Valor Numérico de una expresión}
 \end_layout
 
 \end_inset
@@ -1042,7 +1193,12 @@ status open
 
 
 \backslash
-pause{}
+pause{
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -1082,23 +1238,41 @@ pause{}
 
 \end_deeper
 \begin_layout ExampleBlock
+\begin_inset Argument 1
+status collapsed
+
+\begin_layout Plain Layout
 \begin_inset ERT
 status open
 
 \begin_layout Plain Layout
 
-<2->
+2-
 \end_layout
 
 \end_inset
 
 
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 2
+status collapsed
+
+\begin_layout Plain Layout
 \begin_inset ERT
 status open
 
 \begin_layout Plain Layout
 
-{Ejemplos}
+Ejemplos
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -1288,18 +1462,25 @@ pause{}
 \end_layout
 
 \end_deeper
-\begin_layout EndFrame
-
-\end_layout
-
+\end_deeper
 \begin_layout Section
 Monomios
 \end_layout
 
-\begin_layout BeginFrame
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
 Índice
 \end_layout
 
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
 \begin_layout Standard
 \align center
 
@@ -1308,36 +1489,61 @@ Monomios
 MONOMIOS
 \end_layout
 
-\begin_layout EndFrame
-
-\end_layout
-
+\end_deeper
 \begin_layout Subsection
 Características de los monomios
 \end_layout
 
-\begin_layout BeginFrame
-Monomios
-\end_layout
-
-\begin_layout Block
-\begin_inset ERT
+\begin_layout Frame
+\begin_inset Argument 4
 status open
 
 \begin_layout Plain Layout
-
-<1->
+Monomios
 \end_layout
 
 \end_inset
 
 
+\end_layout
+
+\begin_deeper
+\begin_layout Block
+\begin_inset Argument 1
+status collapsed
+
+\begin_layout Plain Layout
 \begin_inset ERT
 status open
 
 \begin_layout Plain Layout
 
-{¿Qué son?}
+1-
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 2
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+¿Qué son?
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -1559,21 +1765,36 @@ pause{}
 
 \end_deeper
 \end_deeper
-\begin_layout EndFrame
+\end_deeper
+\begin_layout Separator
 
 \end_layout
 
-\begin_layout BeginFrame
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
 Monomios
 \end_layout
 
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
 \begin_layout ExampleBlock
+\begin_inset Argument 2
+status collapsed
+
+\begin_layout Plain Layout
 \begin_inset ERT
 status open
 
 \begin_layout Plain Layout
 
-{Rellena la siguiente tabla}
+Rellena la siguiente tabla}
 \end_layout
 
 \end_inset
@@ -1586,7 +1807,12 @@ status open
 
 
 \backslash
-pause{}
+pause{
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -1600,11 +1826,11 @@ pause{}
 \size larger
 \begin_inset Tabular
 <lyxtabular version="3" rows="7" columns="4">
-<features>
-<column alignment="center" valignment="top" width="0">
-<column alignment="center" valignment="top" width="0">
-<column alignment="center" valignment="top" width="0">
-<column alignment="center" valignment="top" width="0">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
 <row>
 <cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
@@ -2219,12 +2445,16 @@ pause{}
 
 \end_deeper
 \begin_layout Block
+\begin_inset Argument 2
+status collapsed
+
+\begin_layout Plain Layout
 \begin_inset ERT
 status open
 
 \begin_layout Plain Layout
 
-{Monomios semejantes}
+Monomios semejantes}
 \end_layout
 
 \end_inset
@@ -2238,7 +2468,12 @@ status open
 
 
 \backslash
-pause{}
+pause{
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -2264,36 +2499,61 @@ En la tabla anterior, sólo son semejantes
 \end_layout
 
 \end_deeper
-\begin_layout EndFrame
-
-\end_layout
-
+\end_deeper
 \begin_layout Subsection
 Sumas y Restas
 \end_layout
 
-\begin_layout BeginFrame
-Operaciones con Monomios - Sumas y Restas
-\end_layout
-
-\begin_layout Block
-\begin_inset ERT
+\begin_layout Frame
+\begin_inset Argument 4
 status open
 
 \begin_layout Plain Layout
-
-<1->
+Operaciones con Monomios - Sumas y Restas
 \end_layout
 
 \end_inset
 
 
+\end_layout
+
+\begin_deeper
+\begin_layout Block
+\begin_inset Argument 1
+status collapsed
+
+\begin_layout Plain Layout
 \begin_inset ERT
 status open
 
 \begin_layout Plain Layout
 
-{Suma y resta de Monomios}
+1-
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 2
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+Suma y resta de Monomios
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -2517,21 +2777,31 @@ reducción de términos semejantes
 \end_layout
 
 \end_deeper
-\begin_layout EndFrame
+\end_deeper
+\begin_layout Separator
 
 \end_layout
 
-\begin_layout BeginFrame
-Ejercicios
-\end_layout
-
-\begin_layout ExampleBlock
-\begin_inset ERT
+\begin_layout Frame
+\begin_inset Argument 4
 status open
 
 \begin_layout Plain Layout
+Ejercicios
+\end_layout
 
-{Relaciona las expresiones de la izquierda con la derecha}
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout ExampleBlock
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+Relaciona las expresiones de la izquierda con la derecha
 \end_layout
 
 \end_inset
@@ -2552,9 +2822,9 @@ status open
 \begin_layout Standard
 \begin_inset Tabular
 <lyxtabular version="3" rows="4" columns="2">
-<features>
-<column alignment="left" valignment="top" width="0">
-<column alignment="left" valignment="top" width="0">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="left" valignment="top">
+<column alignment="left" valignment="top">
 <row>
 <cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
@@ -2839,12 +3109,16 @@ pause{}
 \end_deeper
 \end_deeper
 \begin_layout AlertBlock
+\begin_inset Argument 2
+status collapsed
+
+\begin_layout Plain Layout
 \begin_inset ERT
 status open
 
 \begin_layout Plain Layout
 
-{Selecciona la opción correcta}
+Selecciona la opción correcta}
 \end_layout
 
 \end_inset
@@ -2857,7 +3131,12 @@ status open
 
 
 \backslash
-pause{}
+pause{
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -2961,36 +3240,61 @@ c)
 
 \end_deeper
 \end_deeper
-\begin_layout EndFrame
-
-\end_layout
-
+\end_deeper
 \begin_layout Subsection
 Producto
 \end_layout
 
-\begin_layout BeginFrame
-Operaciones con Monomios - Producto
-\end_layout
-
-\begin_layout Block
-\begin_inset ERT
+\begin_layout Frame
+\begin_inset Argument 4
 status open
 
 \begin_layout Plain Layout
-
-<1->
+Operaciones con Monomios - Producto
 \end_layout
 
 \end_inset
 
 
+\end_layout
+
+\begin_deeper
+\begin_layout Block
+\begin_inset Argument 1
+status collapsed
+
+\begin_layout Plain Layout
 \begin_inset ERT
 status open
 
 \begin_layout Plain Layout
 
-{Producto  de Monomios}
+1-
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 2
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+Producto  de Monomios
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -3220,21 +3524,31 @@ Así, el resultado obtenido tanto al multiplicar dos monomios como al multiplica
 \end_layout
 
 \end_deeper
-\begin_layout EndFrame
+\end_deeper
+\begin_layout Separator
 
 \end_layout
 
-\begin_layout BeginFrame
-Ejercicios
-\end_layout
-
-\begin_layout ExampleBlock
-\begin_inset ERT
+\begin_layout Frame
+\begin_inset Argument 4
 status open
 
 \begin_layout Plain Layout
+Ejercicios
+\end_layout
 
-{Relaciona las expresiones de la izquierda con la derecha}
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout ExampleBlock
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+Relaciona las expresiones de la izquierda con la derecha
 \end_layout
 
 \end_inset
@@ -3255,9 +3569,9 @@ status open
 \begin_layout Standard
 \begin_inset Tabular
 <lyxtabular version="3" rows="4" columns="2">
-<features>
-<column alignment="left" valignment="top" width="0">
-<column alignment="left" valignment="top" width="0">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="left" valignment="top">
+<column alignment="left" valignment="top">
 <row>
 <cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
@@ -3542,12 +3856,16 @@ pause{}
 \end_deeper
 \end_deeper
 \begin_layout AlertBlock
+\begin_inset Argument 2
+status collapsed
+
+\begin_layout Plain Layout
 \begin_inset ERT
 status open
 
 \begin_layout Plain Layout
 
-{Selecciona la opción correcta}
+Selecciona la opción correcta}
 \end_layout
 
 \end_inset
@@ -3560,7 +3878,12 @@ status open
 
 
 \backslash
-pause{}
+pause{
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -3677,18 +4000,25 @@ Llamo
 
 \end_deeper
 \end_deeper
-\begin_layout EndFrame
-
-\end_layout
-
+\end_deeper
 \begin_layout Section
 Ecuaciones
 \end_layout
 
-\begin_layout BeginFrame
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
 Índice
 \end_layout
 
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
 \begin_layout Standard
 \align center
 
@@ -3697,36 +4027,56 @@ Ecuaciones
 ECUACIONES
 \end_layout
 
-\begin_layout EndFrame
-
-\end_layout
-
+\end_deeper
 \begin_layout Subsection
 Propiedades
 \end_layout
 
-\begin_layout BeginFrame
-Igualdades Algebraicas
-\end_layout
-
-\begin_layout Block
-\begin_inset ERT
+\begin_layout Frame
+\begin_inset Argument 4
 status open
 
 \begin_layout Plain Layout
-
-<1->
+Igualdades Algebraicas
 \end_layout
 
 \end_inset
 
 
+\end_layout
+
+\begin_deeper
+\begin_layout Block
+\begin_inset Argument 1
+status collapsed
+
+\begin_layout Plain Layout
 \begin_inset ERT
 status open
 
 \begin_layout Plain Layout
 
-{Definición y características}
+1-
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 2
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+Definición y características}
 \end_layout
 
 \end_inset
@@ -3744,7 +4094,12 @@ status open
 
 
 \backslash
-pause{}
+pause{
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -3903,32 +4258,56 @@ pause{}
 Numérica
 \end_layout
 
-\begin_layout EndFrame
+\end_deeper
+\begin_layout Separator
 
 \end_layout
 
-\begin_layout BeginFrame
-Identidades y Ecuaciones
-\end_layout
-
-\begin_layout Block
-\begin_inset ERT
+\begin_layout Frame
+\begin_inset Argument 4
 status open
 
 \begin_layout Plain Layout
-
-<1->
+Identidades y Ecuaciones
 \end_layout
 
 \end_inset
 
 
+\end_layout
+
+\begin_deeper
+\begin_layout Block
+\begin_inset Argument 1
+status collapsed
+
+\begin_layout Plain Layout
 \begin_inset ERT
 status open
 
 \begin_layout Plain Layout
 
-{Tipos de Igualdades algebraicas}
+1-
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 2
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+Tipos de Igualdades algebraicas}
 \end_layout
 
 \end_inset
@@ -3945,7 +4324,12 @@ status open
 
 
 \backslash
-pause{}
+pause{
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -4145,32 +4529,61 @@ pause{}
 Ecuación
 \end_layout
 
-\begin_layout EndFrame
+\end_deeper
+\begin_layout Separator
 
 \end_layout
 
-\begin_layout BeginFrame
-Ecuaciones
-\end_layout
-
-\begin_layout Block
-\begin_inset ERT
+\begin_layout Frame
+\begin_inset Argument 4
 status open
 
 \begin_layout Plain Layout
-
-<1->
+Ecuaciones
 \end_layout
 
 \end_inset
 
 
+\end_layout
+
+\begin_deeper
+\begin_layout Block
+\begin_inset Argument 1
+status collapsed
+
+\begin_layout Plain Layout
 \begin_inset ERT
 status open
 
 \begin_layout Plain Layout
 
-{Conceptos}
+1-
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 2
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+Conceptos
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -4326,11 +4739,11 @@ Fíjate en la siguiente tabla:
 \size small
 \begin_inset Tabular
 <lyxtabular version="3" rows="5" columns="4">
-<features>
-<column alignment="center" valignment="top" width="0">
-<column alignment="center" valignment="top" width="0">
-<column alignment="center" valignment="top" width="0">
-<column alignment="center" valignment="top" width="0">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
 <row>
 <cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
@@ -4777,25 +5190,36 @@ pause{}
 
 \end_layout
 
-\begin_layout EndFrame
-
-\end_layout
-
+\end_deeper
 \begin_layout Subsection
 Solución de una ecuación
 \end_layout
 
-\begin_layout BeginFrame
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
 Solución de una Ecuación por tanteo
 \end_layout
 
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
 \begin_layout Block
+\begin_inset Argument 2
+status collapsed
+
+\begin_layout Plain Layout
 \begin_inset ERT
 status open
 
 \begin_layout Plain Layout
 
-{Recuerda}
+Recuerda}
 \end_layout
 
 \end_inset
@@ -4819,7 +5243,12 @@ status open
 
 
 \backslash
-pause{}
+pause{
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -4828,12 +5257,16 @@ pause{}
 \end_layout
 
 \begin_layout AlertBlock
+\begin_inset Argument 2
+status collapsed
+
+\begin_layout Plain Layout
 \begin_inset ERT
 status open
 
 \begin_layout Plain Layout
 
-{Solución por tanteo}
+Solución por tanteo}
 \end_layout
 
 \end_inset
@@ -4854,7 +5287,12 @@ status open
 
 
 \backslash
-pause{}
+pause{
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -5070,21 +5508,31 @@ pause{}
 \end_layout
 
 \end_deeper
-\begin_layout EndFrame
+\end_deeper
+\begin_layout Separator
 
 \end_layout
 
-\begin_layout BeginFrame
-Solución de una Ecuación
-\end_layout
-
-\begin_layout Block
-\begin_inset ERT
+\begin_layout Frame
+\begin_inset Argument 4
 status open
 
 \begin_layout Plain Layout
+Solución de una Ecuación
+\end_layout
 
-{Ejercicios}
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Block
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+Ejercicios
 \end_layout
 
 \end_inset
@@ -5326,18 +5774,25 @@ pause
 \end_layout
 
 \end_deeper
-\begin_layout EndFrame
-
-\end_layout
-
+\end_deeper
 \begin_layout Subsection
 Equivalencia de ecuaciones
 \end_layout
 
-\begin_layout BeginFrame
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
 Ecuaciones equivalentes
 \end_layout
 
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
 \begin_layout Block
 
 \size scriptsize
@@ -5525,15 +5980,26 @@ pause{}
 Veamos esto último con más detalle
 \end_layout
 
-\begin_layout EndFrame
+\end_deeper
+\begin_layout Separator
 
 \end_layout
 
-\begin_layout BeginFrame
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
 Reglas de equivalencia.
  Sumas y restas
 \end_layout
 
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
 \begin_layout Standard
 Las ecuaciones podemos representarlas con una balanza:
 \end_layout
@@ -5584,7 +6050,7 @@ status open
 
 \size scriptsize
 \begin_inset Graphics
-	filename /media/disco_compartido/Dropbox/nube_carlos/cortes/recursos/1eso/algebra/img/balanza.png
+	filename img/balanza.png
 	width 5cm
 
 \end_inset
@@ -5595,7 +6061,7 @@ status open
 \begin_layout Plain Layout
 
 \size scriptsize
-\begin_inset Caption
+\begin_inset Caption Standard
 
 \begin_layout Plain Layout
 Ecuación Original
@@ -5678,15 +6144,26 @@ Algebraicamente:
 
 \end_deeper
 \end_deeper
-\begin_layout EndFrame
+\end_deeper
+\begin_layout Separator
 
 \end_layout
 
-\begin_layout BeginFrame
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
 Reglas de equivalencia.
  Sumas y restas
 \end_layout
 
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
 \begin_layout Block
 
 \size scriptsize
@@ -5733,7 +6210,7 @@ status open
 
 \size scriptsize
 \begin_inset Graphics
-	filename /media/disco_compartido/Dropbox/nube_carlos/cortes/recursos/1eso/algebra/img/balanza2.png
+	filename img/balanza2.png
 	width 5cm
 
 \end_inset
@@ -5744,7 +6221,7 @@ status open
 \begin_layout Plain Layout
 
 \size scriptsize
-\begin_inset Caption
+\begin_inset Caption Standard
 
 \begin_layout Plain Layout
 Ecuación Equivalente
@@ -5868,21 +6345,31 @@ De manera práctica:
  restando pasa al otro lado sumando)
 \end_layout
 
-\begin_layout EndFrame
+\end_deeper
+\begin_layout Separator
 
 \end_layout
 
-\begin_layout BeginFrame
-Ejercicios de Regla de equivalencia
-\end_layout
-
-\begin_layout AlertBlock
-\begin_inset ERT
+\begin_layout Frame
+\begin_inset Argument 4
 status open
 
 \begin_layout Plain Layout
+Ejercicios de Regla de equivalencia
+\end_layout
 
-{Recuerda: Regla de equivalencia de sumas y restas}
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout AlertBlock
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+Recuerda: Regla de equivalencia de sumas y restas
 \end_layout
 
 \end_inset
@@ -6102,15 +6589,26 @@ pause{}
 \end_layout
 
 \end_deeper
-\begin_layout EndFrame
+\end_deeper
+\begin_layout Separator
 
 \end_layout
 
-\begin_layout BeginFrame
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
 Reglas de equivalencia.
  Multiplicación y división
 \end_layout
 
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
 \begin_layout Standard
 Las ecuaciones podemos representarlas con una balanza:
 \end_layout
@@ -6161,7 +6659,7 @@ status open
 
 \size scriptsize
 \begin_inset Graphics
-	filename /media/disco_compartido/Dropbox/nube_carlos/cortes/recursos/1eso/algebra/img/Balanza3.png
+	filename img/Balanza3.png
 	width 5cm
 
 \end_inset
@@ -6172,7 +6670,7 @@ status open
 \begin_layout Plain Layout
 
 \size scriptsize
-\begin_inset Caption
+\begin_inset Caption Standard
 
 \begin_layout Plain Layout
 Ecuación Original
@@ -6255,15 +6753,26 @@ Algebraicamente:
 
 \end_deeper
 \end_deeper
-\begin_layout EndFrame
+\end_deeper
+\begin_layout Separator
 
 \end_layout
 
-\begin_layout BeginFrame
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
 Reglas de equivalencia.
  Multiplicación y división
 \end_layout
 
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
 \begin_layout Block
 
 \size scriptsize
@@ -6310,7 +6819,7 @@ status open
 
 \size scriptsize
 \begin_inset Graphics
-	filename /media/disco_compartido/Dropbox/nube_carlos/cortes/recursos/1eso/algebra/img/Balanza4.png
+	filename img/Balanza4.png
 	width 5cm
 
 \end_inset
@@ -6321,7 +6830,7 @@ status open
 \begin_layout Plain Layout
 
 \size scriptsize
-\begin_inset Caption
+\begin_inset Caption Standard
 
 \begin_layout Plain Layout
 Ecuación Equivalente
@@ -6445,21 +6954,31 @@ De manera práctica:
  algo dividiendo pasa al otro lado multiplicando)
 \end_layout
 
-\begin_layout EndFrame
+\end_deeper
+\begin_layout Separator
 
 \end_layout
 
-\begin_layout BeginFrame
-Ejercicios de Regla de equivalencia
-\end_layout
-
-\begin_layout AlertBlock
-\begin_inset ERT
+\begin_layout Frame
+\begin_inset Argument 4
 status open
 
 \begin_layout Plain Layout
+Ejercicios de Regla de equivalencia
+\end_layout
 
-{Recuerda: Regla de equivalencia de multiplicación  y división}
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout AlertBlock
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+Recuerda: Regla de equivalencia de multiplicación  y división
 \end_layout
 
 \end_inset
@@ -6679,18 +7198,25 @@ pause{}
 \end_layout
 
 \end_deeper
-\begin_layout EndFrame
-
-\end_layout
-
+\end_deeper
 \begin_layout Subsection
 Resolución general de ecuaciones
 \end_layout
 
-\begin_layout BeginFrame
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
 Resolución general de ecuaciones
 \end_layout
 
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
 \begin_layout Standard
 Veamos como resolver ecuaciones más complejas, fíjate en los pasos:
 \end_layout
@@ -6705,12 +7231,11 @@ Veamos como resolver ecuaciones más complejas, fíjate en los pasos:
 \end_layout
 
 \begin_layout Block
-\begin_inset ERT
+\begin_inset Argument 2
 status open
 
 \begin_layout Plain Layout
-
-{7x-2=5x+4}
+7x-2=5x+4
 \end_layout
 
 \end_inset
@@ -6923,14 +7448,25 @@ pause{}
 \end_layout
 
 \end_deeper
-\begin_layout EndFrame
+\end_deeper
+\begin_layout Separator
 
 \end_layout
 
-\begin_layout BeginFrame
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
 Ejercicios
 \end_layout
 
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
 \begin_layout Standard
 Resuelve las siguientes ecuaciones
 \end_layout
@@ -7190,14 +7726,25 @@ pause{}
 \end_layout
 
 \end_deeper
-\begin_layout EndFrame
+\end_deeper
+\begin_layout Separator
 
 \end_layout
 
-\begin_layout BeginFrame
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
 Problemas con ecuaciones
 \end_layout
 
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
 \begin_layout Standard
 
 \size small
@@ -7210,12 +7757,16 @@ problemas
 \end_layout
 
 \begin_layout ExampleBlock
+\begin_inset Argument 2
+status collapsed
+
+\begin_layout Plain Layout
 \begin_inset ERT
 status open
 
 \begin_layout Plain Layout
 
-{Enunciado}
+Enunciado}
 \end_layout
 
 \end_inset
@@ -7229,7 +7780,12 @@ status open
 
 
 \backslash
-pause{}
+pause{
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -7407,21 +7963,36 @@ si le quito 2 obtengo 8
 \end_layout
 
 \end_deeper
-\begin_layout EndFrame
+\end_deeper
+\begin_layout Separator
 
 \end_layout
 
-\begin_layout BeginFrame
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
 Problemas con ecuaciones
 \end_layout
 
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
 \begin_layout ExampleBlock
+\begin_inset Argument 2
+status collapsed
+
+\begin_layout Plain Layout
 \begin_inset ERT
 status open
 
 \begin_layout Plain Layout
 
-{Enunciado}
+Enunciado}
 \end_layout
 
 \end_inset
@@ -7436,7 +8007,12 @@ status open
 
 
 \backslash
-pause{}
+pause{
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -7617,9 +8193,6 @@ pause{}
 \end_layout
 
 \end_deeper
-\begin_layout EndFrame
-
-\end_layout
-
+\end_deeper
 \end_body
 \end_document

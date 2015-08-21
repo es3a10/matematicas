@@ -1,0 +1,20 @@
+1º ESO
+#######################
+
+:date: 2015-08-27
+:tags: 
+:category: General
+:authors: Carlos Rodríguez
+:summary: 
+
+Este blog está hecho con **Pelican** y está alojado en **Github Pages**. La
+principal razón es la de utilizar Software Libre, y documentar en
+Restructuredtext (.rst). Aparte de las ventajas de usar software libre,
+el poder documentar el blog offline me ha animado a aprender Pelican y
+usarlo.
+
+
+Matemáticas de 1º de la ESO. Esta documentación se realizó en 2015
+
+.. figure:: ./images/poliedros_calibre.jpg 
+	:alt:	'poliedros'
