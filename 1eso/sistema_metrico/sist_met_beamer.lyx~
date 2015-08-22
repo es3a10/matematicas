@@ -8,7 +8,7 @@
 %\usecolortheme{default}
 \usecolortheme{seahorse}
 
- \date{}
+\date{}
 \institute{}
 \setbeamertemplate{footline}{}
 %\usecolortheme[named=Mahogany]{structure}
@@ -48,6 +48,7 @@
 \pdf_backref false
 \pdf_pdfusetitle false
 \pdf_pagemode FullScreen
+\pdf_quoted_options "handout"
 \papersize default
 \use_geometry true
 \use_package amsmath 1
