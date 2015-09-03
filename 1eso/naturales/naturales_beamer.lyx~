@@ -145,7 +145,7 @@ Los números naturales
 status open
 
 \begin_layout Plain Layout
-Definiciones
+Definición
 \end_layout
 
 \end_inset
@@ -164,20 +164,22 @@ Los números naturales
 
 \end_inset
 
- un número natural es cualquiera de los números que se usan para contar
+ Un número natural es cualquiera de los números que se usan para contar
  los elementos de un conjunto.
  
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-Se denotan con la letra 
+Se denotan con este símbolo --> 
 \begin_inset ERT
 status open
 
 \begin_layout Plain Layout
 
-pause()
+
+\backslash
+pause{}
 \end_layout
 
 \end_inset
@@ -202,6 +204,240 @@ La definición formal es:
 \end_layout
 
 \end_deeper
+\end_deeper
+\begin_layout AlertBlock
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+El cero
+\end_layout
+
+\end_inset
+
+El cero es un número especial.
+ ¿sabes como se escribe el 0 en números romanos?
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+Los romanos no conocían el 0
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+Algunos libros y algunas ramas de las matemáticas consideran el 0 como número
+ natural.
+ 
+\begin_inset Quotes eld
+\end_inset
+
+Nosotros
+\begin_inset Quotes erd
+\end_inset
+
+, por lo general, no lo incluiremos dentro de los naturales.
+ La necesidad de contar aparece cuando tenemos algo, antes no.
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Sumas de naturales
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout AlertBlock
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+Suma de naturales
+\end_layout
+
+\end_inset
+
+Los números que se suman se llaman 
+\emph on
+sumandos
+\emph default
+.
+ Un paréntesis indica la suma que se realiza primero.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+Ejemplo:
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $5+\left(6+3\right)=5+9=13$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout ExampleBlock
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+Propiedades
+\end_layout
+
+\end_inset
+
+La suma de números naturales cumple las siguientes propiedades:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+\emph on
+Conmutativa:
+\series default
+\emph default
+ El orden de los sumandos no altera la suma.
+ 
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $a+b=b+a$
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $5+3=3+5$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+\emph on
+Asociativa:
+\series default
+\emph default
+ Se pueden asociar de cualquier modo los sumandos sin alterar la suma.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $a+b+c=\left(a+b\right)+c=a+(b+c)$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $5+3+1$
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \rightarrowfill{}
+\end_inset
+
+
+\begin_inset Formula $8+1=9$
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \rightarrowfill{}
+\end_inset
+
+
+\begin_inset Formula $5+4=9$
+\end_inset
+
+
+\end_layout
+
 \end_deeper
 \end_deeper
 \end_body

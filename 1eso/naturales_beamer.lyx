@@ -136,5 +136,75 @@ LatexCommand tableofcontents
 \end_layout
 
 \end_deeper
+\begin_layout Section
+Los números naturales
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Definiciones
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout ExampleBlock
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+Los números naturales
+\end_layout
+
+\end_inset
+
+ un número natural es cualquiera de los números que se usan para contar
+ los elementos de un conjunto.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Se denotan con la letra 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pause{}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $\mathbb{{\displaystyle N}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+La definición formal es:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Formula $\mathbb{N}=\left\{ 1,\,2,\,3,\,4,\,...\right\} $
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_deeper
+\end_deeper
 \end_body
 \end_document
