@@ -13,7 +13,7 @@ Acceso a Internet
 
 ###Desarrollo de la actividad
 
-Al final de la actividad tienes que dibujar una viñeta, en formato cómic, que refleje la Historia de Pitágoras. La historia tiene que tener al menos 6 viñetas. Aquí tienes un ejemplo de cómo puede ir quedando:
+Al final de la actividad tienes que dibujar una secuencia de viñetas, en formato cómic, que refleje la Historia de Pitágoras. La historia tiene que tener al menos 6 viñetas. Aquí tienes un ejemplo de cómo puede ir quedando:
 
 <img src="./historia_pitagoras.png" width="800px">
 
