@@ -9,7 +9,7 @@
 Poneros por parejas para realizar la actividad
 
 ###Materiales y construcción
-Acceso a Internet
+Acceso a Internet. Una hoja, a ser posible de A3, lápices y colores.
 
 ###Desarrollo de la actividad
 
@@ -25,7 +25,7 @@ Al final de la clase enseñarás tu trabajo al resto. Para ello, busca en Intern
 
 1. ¿Quién descubrió realmente el teorema de Pitágoras?
 
-1. ¿Qué dice el teorema de Pitágoras? Explícalo para un triángulo rectángulo
+1. ¿Qué dice el teorema de Pitágoras? Explícalo para un triángulo rectángulo delados 3, 4 y 5cm
 
 1. Invéntate un rap sobre Pitágoras de 4 líneas e inclúyelo en tus viñetas.
 
