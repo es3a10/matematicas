@@ -12,9 +12,9 @@ Poneros por parejas para realizar la actividad
 
 Busca en Internet qué son los sólidos platónicos, cuántos hay y cómo se llaman. Puedes complementar la búsqueda viendo esos dos vídeos:
 
-    - (https://www.youtube.com/watch?v=LBA9ssSfpWs)
+   https://www.youtube.com/watch?v=LBA9ssSfpWs
 
-    - (https://www.youtube.com/watch?v=Z9HUSDwyuVQ
+   https://www.youtube.com/watch?v=Z9HUSDwyuVQ
 
 **Definición de sólidos platónicos:**
 
