@@ -16,7 +16,7 @@ Busca en Internet qué son los sólidos platónicos, cuántos hay y cómo se lla
 
    https://www.youtube.com/watch?v=Z9HUSDwyuVQ
 
-**Definición de sólidos platónicos:**
+   **Definición de sólidos platónicos:**
 
 Busca en Internet el número de caras y de qué tipo son
 
