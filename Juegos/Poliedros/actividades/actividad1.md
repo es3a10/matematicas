@@ -23,13 +23,20 @@ Completa:
 
 
 
+
+
+
+
 ```
 
 
-Busca en Internet el número de caras y de qué tipo son
+Completa la siguiente tabla:
 
-###Desarrollo de la actividad
 
-Tienes que rellenar la tabla que aparece al final y responder a las siguientes cuestiones:
-
-    - ¿Cuántas losetas necesitas para co
+ Nombre del Poliedro | Número de caras | Polígonos de la cara 
+-------------------- | ----------------| -------------------- 
+ Tetraedro | 4 | Triángulos Equiláteros 
+ Cubo | | 
+ Octaaedro | | 
+ Dodecaedro | | 
+ Icosedro | | 
