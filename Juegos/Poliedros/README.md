@@ -12,9 +12,6 @@ Los únicos poliedros que cumplen lo anterior son:
 La propuesta siguiente consiste en construir los sólidos platónicos mediante el uso de palillos y vértices impresos con una impresora 3D. 
 En el caso de no tener acceso a la impresora, la actividad se puede realizar usando, por ejemplo, gominolas.
 
-(https://www.youtube.com/watch?v=LBA9ssSfpWs)
-
-(https://www.youtube.com/watch?v=Z9HUSDwyuVQ)
 
 ## Objetivos
 
