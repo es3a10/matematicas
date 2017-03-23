@@ -40,3 +40,56 @@ Completa la siguiente tabla:
  Octaaedro | | 
  Dodecaedro | | 
  Icosedro | | 
+ 
+ Dibuja:
+```
+   Tetraedro:
+
+
+
+
+
+
+
+```
+
+```
+   Cubo:
+
+
+
+
+
+
+
+```
+```
+   Octaedro:
+
+
+
+
+
+
+
+```
+```
+   Dodecaedro:
+
+
+
+
+
+
+
+```
+```
+   Icosaedro:
+
+
+
+
+
+
+
+```
