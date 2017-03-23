@@ -1,14 +1,15 @@
-#Actividad 1
 
-#Fecha:
-#Nombres:
+# Actividad 1
 
-##Conociendo los sólidos platónicos y algunas propiedades
+# Fecha:
+# Nombres:
 
-###Grupos
+## Conociendo los sólidos platónicos y algunas propiedades
+
+### Grupos
 Poneros por parejas para realizar la actividad
 
-###Los sólidos platónicos
+### Los sólidos platónicos
 
 Busca en Internet qué son los sólidos platónicos, cuántos hay y cómo se llaman.
 
