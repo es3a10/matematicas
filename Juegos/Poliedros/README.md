@@ -26,4 +26,4 @@ Los objetivos de la actividad son los siguientes:
 
 ### Actividad 1
 
-Conocer los sólidos platónicos
+[Conocer los sólidos platónicos](./actividades/actividad1.md)
