@@ -16,8 +16,10 @@ Busca en Internet qué son los sólidos platónicos, cuántos hay y cómo se lla
 
    https://www.youtube.com/watch?v=Z9HUSDwyuVQ
 
+Completa:
+
 ```
-Definición de sólidos platónicos:
+   Definición de sólidos platónicos:
 
 
 
