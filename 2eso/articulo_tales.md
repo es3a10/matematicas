@@ -5,5 +5,6 @@ La estimación de alturas de objetos de difícil acceso es un buen ejemplo de c�
 
 En concreto la actividad propuesta ha sido la medición de la fachada del instituto. Para ello, se ha utilizado el teorema de Tales de dos formas diferentes para hacer las estimaciones.
 
-## Teorema de Tales
-El teorema de Tales nos dice que en triángulos semejantes, los lados correspondientes son proporcionales
+## Triángulos semejantes y del teorema de Tales
+
+Dos triángulos semejantes tienen los ángulos correspondientes iguales y los lados homólogos proporcionales. La explicación de esta propiedad se demuestra con el teorema de Tales, ya que dos triángulos semejantes se pueden colocar en posición de Tales 
