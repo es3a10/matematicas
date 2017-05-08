@@ -7,4 +7,12 @@ En concreto la actividad propuesta ha sido la medición de la fachada del instit
 
 ## Triángulos semejantes y del teorema de Tales
 
-Dos triángulos semejantes tienen los ángulos correspondientes iguales y los lados homólogos proporcionales. La explicación de esta propiedad se demuestra con el teorema de Tales, ya que dos triángulos semejantes se pueden colocar en posición de Tales 
+Dos triángulos semejantes tienen los ángulos correspondientes iguales y los lados homólogos proporcionales. La explicación de esta propiedad se demuestra con el teorema de Tales, ya que dos triángulos semejantes se pueden colocar en posición de Tales.
+
+## Desarrollo de la actividad
+
+La clase se repartió en grupos de 3 personas. El material utilizado ha sido: Metro, Calculadora y Cuaderno.
+
+Se han realizado mediciones de dos formas:
+
+  1. Midiendo sombras.
