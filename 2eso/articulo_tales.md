@@ -15,4 +15,4 @@ La clase se repartió en grupos de 3 personas. El material utilizado ha sido: Me
 
 Se han realizado mediciones de dos formas:
 
-  1. Midiendo sombras.
+  1. Midiendo las sombras: Se mide la sombra del edificio y la sombra de una persona, así como su altura. En concreto, 5.70, 1.04 y 1.70, respectivamente. Planteando la proporción nos queda 5.70 es a 1.04 como X es 1.70, siendo X la altura del edificio (5.70/1.04=X/1.70). Despejando la X nos queda que X=(5.70 x 1.70):1.04=9.32 mts.   
