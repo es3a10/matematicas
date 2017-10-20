@@ -1,0 +1,387 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass article
+\begin_preamble
+%cabecera y pie
+\usepackage{fancyhdr} %activamos el paquete 
+\pagestyle{fancy} %seleccionamos un estilo
+\lhead{IES Sancho III - Tafalla} %texto izquierda de la cabecera
+\chead{} %texto centro de la cabecera
+\rhead{Dpto. de Matemáticas} %número de página a la derecha
+\lfoot{} %texto izquierda del pie
+\cfoot{\thepage} %imagen centro del pie
+\rfoot{} %texto derecha del pie
+\renewcommand{\headrulewidth}{0.4pt} % grosor de la línea de la cabecera
+\renewcommand{\footrulewidth}{0.4pt} %grosor de la línea del pie 
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language spanish
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 12
+\spacing single
+\use_hyperref false
+\papersize a4paper
+\use_geometry true
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 0
+\index Índice
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 0.5cm
+\topmargin 2cm
+\bottommargin 2cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\noindent
+\align center
+
+\size larger
+\bar under
+EXAMEN DE LA LECCIÓN 6 (tipo A) 
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Puntuación: Ej.1
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+1 ptos; Ej.2
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+1 ptos; Ej.3
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+2 ptos; Ej.4
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+2 ptos; Ej.5
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+2 ptos; Ej.6
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+2 ptos
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Nombre:
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+dotfill
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Fecha:
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Formula $\ldots/\ldots/\ldots$
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+Grupo:
+\begin_inset Formula $\ldots\ldots$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100line%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Justifica tus respuestas todo lo que puedas, es decir indica cómo sacas
+ las fórmulas que utilices
+\end_layout
+
+\begin_layout Enumerate
+¿De cuántas maneras se pueden cubrir los puestos de Director, Vicedirector
+ y Jefe de estudios si hay 35 profesores?.
+ Indica qué tipo de agrupaciónes son, si importa el orden y si se puede
+ repetir los puestos.
+\end_layout
+
+\begin_layout Enumerate
+En una urna hay 3 bolas blancas y 2 negras.
+ Extraemos tres bolas.
+ Halla:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+El espacio muestral
+\end_layout
+
+\begin_layout Enumerate
+Los sucesos elementales del suceso 
+\begin_inset Quotes eld
+\end_inset
+
+la primera bola es blanca
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Los sucesos elementales del suceso 
+\begin_inset Quotes eld
+\end_inset
+
+todas las bolas son blancas menos una
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Los sucesos elementales del suceso 
+\begin_inset Quotes eld
+\end_inset
+
+al menos una es blanca
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Lanzamos tres monedas.
+ Responde a las siguientes cuestiones:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Cuál es la probabilidad de que salga al menos una cara
+\end_layout
+
+\begin_layout Enumerate
+Cuál es la probabilidad de que salga solo una cara
+\end_layout
+
+\begin_layout Enumerate
+Cuál es la probabilidad de que no salga ninguna cara
+\end_layout
+
+\begin_layout Enumerate
+Cuál es la probabilidad de que salga como mucho una cara
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Se escoge al azar un número entre 100 y 1000, ambos incluidos.
+ Cuál es la probabilidad de que sea:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+múltiplo de 5
+\end_layout
+
+\begin_layout Enumerate
+capicúa
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+En una urna hay dos bolas blancas y tres negras.
+ Se extraen dos bolas sin reemplazo.
+ Cuál es la probabilidad de que sean:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+la segunda blanca y la primera negra
+\end_layout
+
+\begin_layout Enumerate
+la segunda blanca
+\end_layout
+
+\begin_layout Enumerate
+la segunda blanca si la primera ha salido blanca
+\end_layout
+
+\begin_layout Enumerate
+la primera blanca si la segunda ha salido blanca
+\end_layout
+
+\end_deeper
+\end_body
+\end_document
